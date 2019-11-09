@@ -23,6 +23,6 @@
 ## UML
 
 存放UML文件
-![avatar](https://github.com/ctgu-seg2/Travel/UML/AppArchitecture.png)
+![avatar](https://github.com/ctgu-seg2/Travel/tree/master/UML/AppArchitecture.png)
 
 
