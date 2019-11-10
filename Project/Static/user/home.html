@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+
+        .head_button{
+            /*页首按钮*/
+            width: 8em;
+            height: 3em;
+            background-color: transparent;
+            border-color: rgba(254, 83, 61, 0.96);
+            border-style: solid;
+            border-width: thin;
+            color: rgba(242,237,231,0.96);
+            margin: 0 auto;
+            display: block;
+            /*block含义*/
+
+        }
+        .container{
+           width: 85%;
+
+        }
+        .block_back{
+            /*width: 22%;*/
+            /*列出四种旅游方式的背景板*/
+            height: 20em;
+            background-color: white;
+            border-color: #2b542c;
+            border-width: thin;
+            box-shadow: 5px 5px 5px rgba(16, 22, 40, 0.96);
+            margin: 0 1.5em;
+            padding-top: 1.5em;
+        }
+        .white_back{
+            /*团购的背景白色*/
+            background-color: white;
+            padding-top: 5em;
+        }
+        .red-word{
+            text-align: center;
+            font-family:'Arial Black';
+            font-weight: bold;
+            font-style: italic;
+            color: rgba(241,34,45,0.94);
+        }
+    </style>
+
+    <script type="text/javascript">
+         a = "images/2.png";
+        $.ajax({
+            type: "POST",//传输方式“GET”
+            url: "",//action路径，后台给的api
+            data: "",//传递参数，可有可无
+            success: function(msg){
+//调用成功后执行操作
+            }
+        });
+    </script>
+
+
+
+</head>
+<body style="background-image: url(images/2.png) ">
+
+<script>
+    a="images/2.png"
+</script>
+<div style="background-color: rgba(16,22,40,0.96);margin: 0 auto ;padding: 0.5em 0 0.3em 0">
+<!--页首-->
+    <div class="container">
+        <div class="row clearfix">
+            <div class="col-md-12 column">
+                <div class="row clearfix">
+                    <div class="col-md-5 column">
+                        <div class="row clearfix" style="padding:1.2em 0 0.1em 0">
+                            <div class="col-md-4 column" >
+                                <button type="button" class="head_button" >Home</button>
+                            </div>
+                            <div class="col-md-4 column" >
+                                <button type="button" class="head_button">境外</button>
+                            </div>
+                            <div class="col-md-4 column">
+                                <button type="button" class="head_button">境内</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 column">
+                        <div class="row clearfix" >
+                            <div class="container" >
+                                <div class="col-md-12 column" style="background-color: rgb(255,82,62);border-radius: 5px;color: rgb(255,250,244)">
+                                    <h2 class="text-center" style="font-family: 'Segoe Script';margin-bottom: 0" >
+                                        Brandi
+                                    </h2>
+                                    <h6 class="text-center" style = "font-family: '微软雅黑 Light';color: black;font-weight: bold;margin-top: 0">
+                                        T  A  G
+                                        &nbsp;&nbsp;&nbsp;&nbsp;
+                                        L  I  N  E
+                                    </h6>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5 column">
+                        <div class="row clearfix" style="padding:1.2em 0 0.1em 0">
+                            <div class="col-md-4 column" >
+                                <button type="button" class="head_button" >海岛</button>
+                            </div>
+                            <div class="col-md-4 column" >
+                                <button type="button" class="head_button">团购</button>
+                            </div>
+                            <div class="col-md-4 column">
+                                <button type="button" class="head_button">登录</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<div class="container" style="padding-top:12em;padding-bottom: 12em;">
+    <!--背景图片高度12em-->
+    <div class="row clearfix" >
+        <div class="col-md-3" >
+            <div class="block_back">
+
+                <h4 class="text-center">
+                    境外游
+                </h4>
+                <div class="container" >
+                <!--待修改-->
+
+
+                <div class="col-md-12" style="margin: 3em auto">
+                    <div class="col-lg-6" style="text-align: center">
+                        <a href="#">广东</a><br>
+                    </div>
+                    <div class="col-lg-6" style="text-align: center;">
+                        <a href="#">广东</a><br>
+                    </div>
+
+                    <div class="col-lg-6" style="text-align: center">
+                        <a href="#">广东</a><br>
+                    </div>
+                    <div class="col-lg-6" style="text-align: center;">
+                        <a href="#">广东</a><br>
+                    </div>
+
+                    <div class="col-lg-6" style="text-align: center">
+                        <a href="#">广东</a><br>
+                    </div>
+                    <div class="col-lg-6" style="text-align: center;">
+                        <a href="#">广东</a><br>
+                    </div>
+
+                </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="block_back">
+                <h4 class="text-center">
+                    境内游
+                </h4>
+
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="block_back">
+                <h4 class="text-center">
+                    海岛游
+                </h4>
+
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="block_back">
+                <h4 class="text-center">
+                    自驾游
+                </h4>
+
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+
+
+<div class="white_back">
+    <div class="container" >
+    <div class="row clearfix">
+        <!--白色界面-->
+        <div class="col-md-12 column">
+            <div class="col-md-12">
+                <h1 class="red-word">
+                    Group Perchase
+                </h1>
+            </div>
+            
+        </div>
+        <div class="col-md-12 column" style="margin: 1em auto">
+            <div class="col-md-4">
+                <div style="width:100%;display:flex">
+                    <img src=images/g4.jpg alt="">
+                </div>
+
+            </div>
+            <div class="col-md-4">
+                <div style="width:100%;display:flex">
+                    <img src="images/g4.jpg" alt="">
+                </div>
+
+            </div>
+            <div class="col-md-4">
+                <div style="width:100%;display:flex">
+                    <img src="images/g5.jpg" alt="" >
+                </div>
+
+            </div>
+        </div>
+
+
+
+    </div>
+</div>
+</div>
+
+
+
+<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+
+<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
