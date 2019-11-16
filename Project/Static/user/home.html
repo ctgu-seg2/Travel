@@ -6,7 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <style>
-
+        img{
+            width: 100%;
+        }
+        div{
+            text-align: center;
+            margin: 0 auto;
+        }
         .head_button{
             /*页首按钮*/
             width: 8em;
@@ -42,7 +48,7 @@
             padding-top: 5em;
         }
         .red-word{
-            text-align: center;
+
             font-family:'Arial Black';
             font-weight: bold;
             font-style: italic;
@@ -67,39 +73,135 @@
             font-style: italic;
             font-weight: bold;
             color: rgba(241, 34, 45, 0.91);
+            text-align: left;
+        }
+        .col-md-6{
+            margin: 1em auto;
+        }
+        .col-md-4{
+            margin: 1em auto;
         }
 
     </style>
 
-    <!--<script type="text/javascript">-->
-        <!--$(document).ready(function(){-->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <!--单独导入jquery文件-->
+    <script>
+        $(document).ready(function(){
 
-            <!--$.ajax({-->
-                <!--type : "GET",-->
-                <!--url:" ",-->
-                <!--data : "JSON",-->
-                <!--success:function()-->
-                <!--{-->
+            $.ajax({
+                type : "GET",
+                url:" ",
+                data : "JSON",
+                success:function()
+                {
+                    $img=$("img");
+                    $img.attr({alt:"loading img fail！"});
 
-                <!--}-->
-                <!--}-->
-            <!--);-->
-
-
-        <!--});-->
+                    // $img.attr({src:"images/g1.jpg"});
+                        // 分类旅游最热推荐
 
 
+                           $("#out_top6 div").each(function(i)
+                               {
+                                   $outTop6 = $("#out_top6 div a");
+                                   $outTop6.html("广州");
+                                   $outTop6.attr({href:""})
+                               }
+                           );
+                           $("#in_top6 div").each(function(i)
+                               {
+                                   $inTop6 = $("#in_top6 div a");
+                                   $inTop6.html("广州");
+                                   $inTop6.attr({href:""})
+                               }
+                           );
+                           $("#island_top6 div").each(function(i)
+                               {
+                                   $islandTop6 = $("#island_top6 div a");
+                                   $islandTop6.html("广州");
+                                   $islandTop6.attr({href:""})
+                               }
+                           );
+                           $("#self_top6 div").each(function(i)
+                               {
+                                   $selfTop6 = $("#self_top6 div a");
+                                   $selfTop6.html("广州");
+                                   $selfTop6.attr({href:""})
+                               }
+                           );
 
-         <!--a = "images/2.png";-->
-        <!--$.ajax({-->
-            <!--type: "POST",//传输方式“GET”-->
-            <!--url: "",//action路径，后台给的api-->
-            <!--data: "",//传递参数，可有可无-->
-            <!--success: function(msg){-->
-<!--//调用成功后执行操作-->
-            <!--}-->
-        <!--});-->
-    <!--</script>-->
+                       // 团购
+                            $("#group_chase div").each(function () {
+                                $group=$("#group_chase div div a img");
+                                $group.attr({src:"images/g1.jpg", alt:"wrong"});
+                                }
+
+                            );
+
+
+
+                            // 多日游
+                             $("#one_day li").each(function()
+                            {
+                                $days_a = $("#one_day li span a");
+                                $days_a.html("China");
+                                $days_a.attr({src: "#"});
+                            });
+                            $("#two_days li").each(function()
+                            {
+                                $days_a = $("#two_days li span a");
+                                $days_a.html("China");
+                                $days_a.attr({src: "#"});
+                            });
+                            $("#days li").each(function()
+                            {
+                                $days_a = $("#days li span a");
+                                $days_a.html("China");
+                                $days_a.attr({src: "#"});
+                            });
+
+                            //缩略视图
+                            $("#out_top3 div div").each(function()
+                            {
+                                $out_top3_name= $("#out_top3 div div div h3 a");
+                                $out_top3_name.html("佛罗伦萨");
+
+                                $out_top3_jian = $("#out_top3_jian");
+                                $out_top3_jian.html("这里是简介");
+
+                                $out_top3_person = $("#out_top3 div div div span ");
+                                $out_top3_person.html("12");
+
+                                $out_top3_price = $("#out_top3-price ");
+                                $out_top3_price.html("12");
+                            })
+
+                }
+                }
+            );
+
+
+            $(document).ajaxError(function(){
+                alert("一个错误发生!");
+            });
+
+            // alert("hello world!");
+
+        });
+
+
+
+//          <!--a = "images/2.png";-->
+//         <!--$.ajax({-->
+//             <!--type: "POST",//传输方式“GET”-->
+//             <!--url: "",//action路径，后台给的api-->
+//             <!--data: "",//传递参数，可有可无-->
+//             <!--success: function(msg){-->
+// <!--//调用成功后执行操作-->
+//             <!--}-->
+//         <!--});-->
+    </script>
 
 
 
@@ -177,29 +279,28 @@
                     境外游
                 </h4>
                 <div class="container" >
-                <!--待修改-->
+                <!--待修改各类旅游计划的最热前六名-->
 
 
-                <div class="col-md-12" style="margin: 3em auto">
-                    <div class="col-lg-6" style="text-align: center">
-                        <a href="#">广东</a><br>
+                <div class="col-md-12" style="margin: 1em auto" id="out_top6">
+                    <div class="col-md-6" >
+                        <a href="#" ></a><br>
                     </div>
-                    <div class="col-lg-6" style="text-align: center;">
-                        <a href="#">广东</a><br>
+                    <div class="col-md-6" >
+                        <a href="#" ></a><br>
                     </div>
-
-                    <div class="col-lg-6" style="text-align: center">
-                        <a href="#">广东</a><br>
-                    </div>
-                    <div class="col-lg-6" style="text-align: center;">
-                        <a href="#">广东</a><br>
+                    <div class="col-md-6" >
+                        <a href="#" ></a><br>
                     </div>
 
-                    <div class="col-lg-6" style="text-align: center">
-                        <a href="#">广东</a><br>
+                    <div class="col-md-6">
+                        <a href="#" ></a><br>
                     </div>
-                    <div class="col-lg-6" style="text-align: center;">
-                        <a href="#">广东</a><br>
+                    <div class="col-md-6" >
+                        <a href="#" ></a><br>
+                    </div>
+                    <div class="col-md-6" >
+                        <a href="#" ></a><br>
                     </div>
 
                 </div>
@@ -212,6 +313,34 @@
                 <h4 class="text-center">
                     境内游
                 </h4>
+                <div class="container" >
+                    <!--待修改各类旅游计划的最热前六名-->
+
+
+                    <div class="col-md-12" style="margin: 1em auto" id="in_top6">
+                        <div class="col-md-6" >
+                            <a href="#" ></a><br>
+                        </div>
+                        <div class="col-md-6" >
+                            <a href="#" ></a><br>
+                        </div>
+                        <div class="col-md-6" >
+                            <a href="#" ></a><br>
+                        </div>
+
+                        <div class="col-md-6">
+                            <a href="#" ></a><br>
+                        </div>
+                        <div class="col-md-6" >
+                            <a href="#" ></a><br>
+                        </div>
+                        <div class="col-md-6" >
+                            <a href="#" ></a><br>
+                        </div>
+
+                    </div>
+
+                </div>
 
             </div>
         </div>
@@ -220,6 +349,34 @@
                 <h4 class="text-center">
                     海岛游
                 </h4>
+                <div class="container" >
+                    <!--待修改各类旅游计划的最热前六名-->
+
+
+                    <div class="col-md-12" style="margin: 1em auto" id="island_top6">
+                        <div class="col-md-6" >
+                            <a href="#" ></a><br>
+                        </div>
+                        <div class="col-md-6" >
+                            <a href="#" ></a><br>
+                        </div>
+                        <div class="col-md-6" >
+                            <a href="#" ></a><br>
+                        </div>
+
+                        <div class="col-md-6">
+                            <a href="#" ></a><br>
+                        </div>
+                        <div class="col-md-6" >
+                            <a href="#" ></a><br>
+                        </div>
+                        <div class="col-md-6" >
+                            <a href="#" ></a><br>
+                        </div>
+
+                    </div>
+
+                </div>
 
             </div>
         </div>
@@ -228,6 +385,34 @@
                 <h4 class="text-center">
                     自驾游
                 </h4>
+                <div class="container" >
+                    <!--待修改各类旅游计划的最热前六名-->
+
+
+                    <div class="col-md-12" style="margin: 1em auto" id="self_top6">
+                        <div class="col-md-6" >
+                            <a href="#" ></a><br>
+                        </div>
+                        <div class="col-md-6" >
+                            <a href="#" ></a><br>
+                        </div>
+                        <div class="col-md-6" >
+                            <a href="#" ></a><br>
+                        </div>
+
+                        <div class="col-md-6">
+                            <a href="#" ></a><br>
+                        </div>
+                        <div class="col-md-6" >
+                            <a href="#" ></a><br>
+                        </div>
+                        <div class="col-md-6" >
+                            <a href="#" ></a><br>
+                        </div>
+
+                    </div>
+
+                </div>
 
             </div>
         </div>
@@ -251,65 +436,81 @@
             </div>
             
         </div>
-        <div class="col-md-12 column" style="margin: 1em auto">
+        <div class="col-md-12 column" style="margin: 1em auto" id="group_chase">
             <div class="col-md-4">
-                <div style="margin: 0 auto">
-                    <img src=images/g4.jpg alt="" width="100%">
+                <div style="margin: 0 auto"  >
+                    <a href="">
+                        <img  >
+                    </a>
+
                 </div>
 
             </div>
             <div class="col-md-4">
                 <div style="margin: 0 auto">
-                    <img src=images/g4.jpg alt="" width="100%">
+                    <a href="">
+                        <img  >
+                    </a>
                 </div>
 
             </div>
             <div class="col-md-4">
                 <div style="margin: 0 auto">
-                    <img src=images/g4.jpg alt="" width="100%">
+                    <a href="">
+                        <img  >
+                    </a>
+                </div>
+
+            </div>
+            <div class="col-md-4">
+                <div style="margin: 0 auto">
+                    <a href="">
+                        <img  >
+                    </a>
+                </div>
+
+            </div>
+            <div class="col-md-4">
+                <div style="margin: 0 auto">
+                    <a href="">
+                        <img  >
+                    </a>
+                </div>
+
+            </div>
+            <div class="col-md-4">
+                <div style="margin: 0 auto">
+                    <a href="">
+                        <img  >
+                    </a>
+                </div>
+
+            </div>
+            <div class="col-md-4">
+                <div style="margin: 0 auto">
+                    <a href="">
+                        <img  >
+                    </a>
+                </div>
+
+            </div>
+            <div class="col-md-4">
+                <div style="margin: 0 auto">
+                    <a href="">
+                        <img  >
+                    </a>
+                </div>
+
+            </div>
+            <div class="col-md-4">
+                <div style="margin: 0 auto">
+                    <a href="">
+                        <img  >
+                    </a>
                 </div>
 
             </div>
         </div>
-        <div class="col-md-12 column" style="margin: 1em auto">
-            <div class="col-md-4">
-                <div style="margin: 0 auto">
-                    <img src=images/g4.jpg alt="" width="100%">
-                </div>
-
-            </div>
-            <div class="col-md-4">
-                <div style="margin: 0 auto">
-                    <img src=images/g4.jpg alt="" width="100%">
-                </div>
-
-            </div>
-            <div class="col-md-4">
-                <div style="margin: 0 auto">
-                    <img src=images/g4.jpg alt="" width="100%">
-                </div>
-
-            </div>
-        </div>
-        <div class="col-md-12 column" style="margin: 1em auto">
-            <div class="col-md-4">
-                <div style="margin: 0 auto">
-                    <img src=images/g4.jpg alt="" width="100%">
-                </div>
-
-            </div>
-            <div class="col-md-4">
-                <div style="margin: 0 auto">
-                    <img src=images/g4.jpg alt="" width="100%">
-                </div>
-
-            </div>
-            <div class="col-md-4">
-                <div style="margin: 0 auto">
-                    <img src=images/g4.jpg alt="" width="100%">
-                </div>
-
-            </div>
         </div>
         </div>
 
@@ -318,7 +519,7 @@
 
 
 
-    </div>
+
 
 
 
@@ -326,33 +527,33 @@
     <div class="container">
         <div class="row clearfix">
             <div class="col-md-4 column">
-                <div class="day3_back">
-                    <h1 class="day3_word">一日游</h1>
-                    <ul style="list-style: none;line-height: 3em">
+                <div class="day3_back" >
+                    <h1 class="day3_word" >一日游</h1>
+                    <ul style="list-style: none;line-height: 3em" class="text-left" id="one_day">
                         <!--示例列表-->
                         <li>
                             <span class="glyphicon glyphicon-map-marker" style="color: rgb(234, 65, 60);">
-                                <a href="#">英国</a>
+                                <a href="#"></a>
                             </span>
                         </li>
                         <li>
                             <span class="glyphicon glyphicon-map-marker" style="color: rgb(234, 65, 60);">
-                                <a href="#">英国</a>
+                                <a href="#"></a>
                             </span>
                         </li>
                         <li>
                             <span class="glyphicon glyphicon-map-marker" style="color: rgb(234, 65, 60);">
-                                <a href="#">英国</a>
+                                <a href="#"></a>
                             </span>
                         </li>
                         <li>
                             <span class="glyphicon glyphicon-map-marker" style="color: rgb(234, 65, 60);">
-                                <a href="#">英国</a>
+                                <a href="#"></a>
                             </span>
                         </li>
                         <li>
                             <span class="glyphicon glyphicon-map-marker" style="color: rgb(234, 65, 60);">
-                                <a href="#">英国</a>
+                                <a href="#"></a>
                             </span>
                         </li>
                     </ul>
@@ -362,18 +563,74 @@
 
                 <div class="day3_back">
                     <h1 class="day3_word">两日游</h1>
+                    <ul style="list-style: none;line-height: 3em" class="text-left" id="two_days">
+                        <!--示例列表-->
+                        <li>
+                            <span class="glyphicon glyphicon-map-marker" style="color: rgb(234, 65, 60);">
+                                <a href="#"></a>
+                            </span>
+                        </li>
+                        <li>
+                            <span class="glyphicon glyphicon-map-marker" style="color: rgb(234, 65, 60);">
+                                <a href="#"></a>
+                            </span>
+                        </li>
+                        <li>
+                            <span class="glyphicon glyphicon-map-marker" style="color: rgb(234, 65, 60);">
+                                <a href="#"></a>
+                            </span>
+                        </li>
+                        <li>
+                            <span class="glyphicon glyphicon-map-marker" style="color: rgb(234, 65, 60);">
+                                <a href="#"></a>
+                            </span>
+                        </li>
+                        <li>
+                            <span class="glyphicon glyphicon-map-marker" style="color: rgb(234, 65, 60);">
+                                <a href="#"></a>
+                            </span>
+                        </li>
+                    </ul>
                 </div>
             </div>
             <div class="col-md-4 column">
                 <div class="day3_back">
                     <h1 class="day3_word">多日游</h1>
+                    <ul style="list-style: none;line-height: 3em" class="text-left" id="days">
+                        <!--示例列表-->
+                        <li>
+                            <span class="glyphicon glyphicon-map-marker" style="color: rgb(234, 65, 60);">
+                                <a href="#"></a>
+                            </span>
+                        </li>
+                        <li>
+                            <span class="glyphicon glyphicon-map-marker" style="color: rgb(234, 65, 60);">
+                                <a href="#"></a>
+                            </span>
+                        </li>
+                        <li>
+                            <span class="glyphicon glyphicon-map-marker" style="color: rgb(234, 65, 60);">
+                                <a href="#"></a>
+                            </span>
+                        </li>
+                        <li>
+                            <span class="glyphicon glyphicon-map-marker" style="color: rgb(234, 65, 60);">
+                                <a href="#"></a>
+                            </span>
+                        </li>
+                        <li>
+                            <span class="glyphicon glyphicon-map-marker" style="color: rgb(234, 65, 60);">
+                                <a href="#"></a>
+                            </span>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
     </div>
 
 
-
+    <!--简略视图-->
     <div class="container">
         <ul id="myTab" class="nav nav-tabs">
             <li class="active"><a href="#out" data-toggle="tab">境外游</a></li>
@@ -384,7 +641,8 @@
 
         </ul>
         <div id="myTabContent" class="tab-content">
-            <div class="tab-pane fade in active" id="out">
+            <!--境外游-->
+            <div class="tab-pane fade in active" id="out_top3">
                 <!--境外游热门推荐-->
                 <div>
                 <div class="row clearfix" style="margin-bottom: 2em">
@@ -397,13 +655,13 @@
                     </div>
                     <div class="col-md-6" style="line-height: 2em">
                         <h3>
-                            <a href="#" style="display: inline">英国三日游</a>
+                            <a href="#" style="display: inline"></a>
                         </h3>
                         简介：
-                        <p id="境外游热门-1">英国伊丽莎白女王巴拉巴拉</p>
-                        <p style="padding-top: 2em">
-                            <span class="glyphicon glyphicon-flag" style="color: rgb(234, 65, 60);"> 15</span>&nbsp;人旅行过
-                        </p>
+                        <p id="out_top3_jian"></p>
+
+                            <span class="glyphicon glyphicon-flag" style="color: rgb(234, 65, 60);"> </span>&nbsp;人旅行过
+
 
 
                     </div>
@@ -411,8 +669,8 @@
 
                         <p  style="color: #f1222d;font-weight: bold;font-style: italic;margin-top: 5em">
                             ￥
-                            <span id ="境外游热门-1-price">
-                               5566
+                            <span id ="out_top3-price">
+
                             </span>
                             /每人
 
@@ -497,7 +755,8 @@
             </div>
             <div class="tab-pane fade" id="in">
                 <!--境内游热门推荐-->
-                <div>
+                <div >
+                    <!--第一行-->
                     <div class="row clearfix" style="margin-bottom: 2em">
 
 
@@ -508,12 +767,12 @@
                         </div>
                         <div class="col-md-6" style="line-height: 2em">
                             <h3>
-                                <a href="#" style="display: inline">英国三日游</a>
+                                <a href="#" ></a>
                             </h3>
                             简介：
-                            <p id="境内游热门-1">英国伊丽莎白女王巴拉巴拉</p>
+                            <p id="境内游热门-简介1"></p>
                             <p style="padding-top: 2em">
-                                <span class="glyphicon glyphicon-flag" style="color: rgb(234, 65, 60);"> 15</span>&nbsp;人旅行过
+                                <span class="glyphicon glyphicon-flag" style="color: rgb(234, 65, 60);"> </span>&nbsp;人旅行过
                             </p>
 
 
@@ -534,7 +793,7 @@
 
 
                     </div>
-
+                    <!--第二行-->
                     <div class="row clearfix" style="margin-bottom: 2em">
 
 
@@ -571,6 +830,7 @@
 
 
                     </div>
+                    <!--第三行-->
                     <div class="row clearfix" style="margin-bottom: 2em">
 
 
@@ -798,12 +1058,12 @@
 
 
                         <div class="col-md-3">
-                            <img src="images/g4.jpg" alt=""  style="width: 100%">
+                            <img src="images/g4.jpg" alt="">
 
                         </div>
-                        <div class="col-md-6" style="line-height: 2em">
+                        <div class="col-md-6" style="line-height: 2em;text-align: right">
                             <h3>
-                                <a href="#" style="display: inline">英国三日游</a>
+                                <a href="#">英国三日游</a>
                             </h3>
                             简介：
                             <p id="自驾游热门-3">英国伊丽莎白女王巴拉巴拉</p>
@@ -832,15 +1092,15 @@
     </div>
 </div>
 
-
+</div>
 
 
 
 <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
-<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+<!--<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>-->
 
 
 <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
-<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!--<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
 </body>
 </html>
