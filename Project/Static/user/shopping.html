@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .head_button{
+            /*页首按钮*/
+            width: 8em;
+            height: 3em;
+            background-color: transparent;
+            border-color: rgba(254, 83, 61, 0.96);
+            border-style: solid;
+            border-width: thin;
+            color: rgba(242,237,231,0.96);
+            margin: 0 auto;
+            display: block;
+            /*block含义*/
+
+        }
+
+        .container{
+            width: 85%;
+
+        }
+        .red-word{
+
+            font-family:'Arial Black';
+            font-weight: bold;
+
+            color: rgba(241,34,45,0.94);
+            text-align: left;
+            font-size: 30px
+        }
+        th{
+            text-align: center;
+
+
+        }
+        td{
+            text-align: center;
+            margin: auto 0;
+        }
+        caption{
+            margin: 1em auto;
+        }
+        .img{
+            text-align: left;
+        }
+        table{
+
+        }
+
+    </style>
+</head>
+<body>
+
+<div style="background-color: rgba(16,22,40,0.96);margin: 0 auto ;padding: 0.5em 0 0.3em 0">
+    <!--页首-->
+    <div class="container">
+        <div class="row clearfix">
+            <div class="col-md-12 column">
+                <div class="row clearfix">
+                    <div class="col-md-5 column">
+                        <div class="row clearfix" style="padding:1.2em 0 0.1em 0">
+                            <div class="col-md-4 column" >
+                                <button type="button" class="head_button" >Home</button>
+                            </div>
+                            <div class="col-md-4 column" >
+                                <button type="button" class="head_button">境外</button>
+                            </div>
+                            <div class="col-md-4 column">
+                                <button type="button" class="head_button">境内</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 column">
+                        <div class="row clearfix" >
+                            <div class="container" >
+                                <div class="col-md-12 column" style="background-color: rgb(255,82,62);border-radius: 5px;color: rgb(255,250,244)">
+                                    <h2 class="text-center" style="font-family: 'Segoe Script';margin-bottom: 0" >
+                                        Brandi
+                                    </h2>
+                                    <h6 class="text-center" style = "font-family: '微软雅黑 Light';color: black;font-weight: bold;margin-top: 0">
+                                        T  A  G
+                                        &nbsp;&nbsp;&nbsp;&nbsp;
+                                        L  I  N  E
+                                    </h6>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5 column">
+                        <div class="row clearfix" style="padding:1.2em 0 0.1em 0">
+                            <div class="col-md-4 column" >
+                                <button type="button" class="head_button" >海岛</button>
+                            </div>
+                            <div class="col-md-4 column" >
+                                <button type="button" class="head_button">团购</button>
+                            </div>
+                            <div class="col-md-4 column">
+                                <button type="button" class="head_button">登录</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<div class="container">
+
+
+    <div class="table-responsive">
+        <table class="table">
+            <caption class="red-word" >My shopping cart</caption>
+            <thead>
+            <tr>
+                <th>序号</th>
+                <th>线路名称</th>
+                <th>单价</th>
+                <th>下单</th>
+                <th>操作</th></tr>
+            </thead>
+            <tbody id="shopping_cart">
+            <tr>
+                <td>1</td>
+                <td class="img"><img src="images/g1.jpg" alt="" height="100px"><span>cc</span></td>
+                <td>待发货</td>
+                <td> <button class="btn-link">下单</button></td>
+                <td> <button class="btn-link">删除</button></td></tr>
+
+            <tr>
+                <td>1</td>
+                <td> c</td>
+                <td>待发货</td>
+                <td> c</td>
+                <td> c</td></tr>
+            <tr>
+                <td>1</td>
+                <td> c</td>
+                <td>待发货</td>
+                <td> c</td>
+                <td> c</td></tr>
+            <tr>
+                <td>1</td>
+                <td> c</td>
+                <td>待发货</td>
+                <td> c</td>
+                <td> c</td></tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+</body>
+</html>

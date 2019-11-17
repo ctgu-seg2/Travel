@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>order</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        .head_button{
+            /*页首按钮*/
+            width: 8em;
+            height: 3em;
+            background-color: transparent;
+            border-color: rgba(254, 83, 61, 0.96);
+            border-style: solid;
+            border-width: thin;
+            color: rgba(242,237,231,0.96);
+            margin: 0 auto;
+            display: block;
+            /*block含义*/
+
+        }
+
+        .container{
+            width: 85%;
+
+
+        }
+        .container:nth-child(2)
+        {
+            margin-top: 20px;
+        }
+        .red-word{
+
+
+            font-family:'Arial Black';
+            font-weight: bold;
+            font-style: italic;
+            font-size: 30px
+        }
+        .col-md-4:first-child{
+
+            color: rgba(241,34,45,0.94);
+
+
+        }
+        legend{
+            font-size: small;
+        }
+        .field{
+            margin: 10px auto;
+        }
+
+
+    </style>
+    <script>
+        function getUrlParam(name) {
+            var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)"); // 构造一个含有目标参数的正则表达式对象
+            var r = window.location.search.substr(1).match(reg);  // 匹配目标参数
+            if (r != null) return unescape(r[2]);
+            return null; // 返回参数值
+
+        }
+
+    </script>
+
+
+</head>
+<body>
+<div style="background-color: rgba(16,22,40,0.96);margin: 0 auto ;padding: 0.5em 0 0.3em 0">
+    <!--页首-->
+    <div class="container">
+        <div class="row clearfix">
+            <div class="col-md-12 column">
+                <div class="row clearfix">
+                    <div class="col-md-5 column">
+                        <div class="row clearfix" style="padding:1.2em 0 0.1em 0">
+                            <div class="col-md-4 column" >
+                                <button type="button" class="head_button" >Home</button>
+                            </div>
+                            <div class="col-md-4 column" >
+                                <button type="button" class="head_button">境外</button>
+                            </div>
+                            <div class="col-md-4 column">
+                                <button type="button" class="head_button">境内</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 column">
+                        <div class="row clearfix" >
+                            <div class="container" >
+                                <div class="col-md-12 column" style="background-color: rgb(255,82,62);border-radius: 5px;color: rgb(255,250,244)">
+                                    <h2 class="text-center" style="font-family: 'Segoe Script';margin-bottom: 0" >
+                                        Brandi
+                                    </h2>
+                                    <h6 class="text-center" style = "font-family: '微软雅黑 Light';color: black;font-weight: bold;margin-top: 0">
+                                        T  A  G
+                                        &nbsp;&nbsp;&nbsp;&nbsp;
+                                        L  I  N  E
+                                    </h6>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5 column">
+                        <div class="row clearfix" style="padding:1.2em 0 0.1em 0">
+                            <div class="col-md-4 column" >
+                                <button type="button" class="head_button" >海岛</button>
+                            </div>
+                            <div class="col-md-4 column" >
+                                <button type="button" class="head_button">团购</button>
+                            </div>
+                            <div class="col-md-4 column">
+                                <button type="button" class="head_button">登录</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+<div class="container">
+    <div class="col-md-12" style="text-align: center">
+        <div class="col-md-4"  >
+            <h1 class="red-word">
+                填写订单
+            </h1>
+        </div>
+        <div class="col-md-4">
+            <h1 class="red-word">
+                确认订单
+            </h1 >
+        </div>
+        <div class="col-md-4">
+            <h1 class="red-word">
+                提交订单
+            </h1>
+        </div>
+    </div>
+
+
+
+
+
+</div>
+<div class="container" style="width: 64%">
+
+
+    <div class="panel panel-danger" style="border-bottom-style: none">
+        <div class="panel-heading">
+            线路信息
+        </div>
+        <div class="panel-body">
+            <form class="form-horizontal" role="form">
+                <fieldset >
+                    <!--<legend style="font-size: small">-->
+                    <!--线路信息-->
+                    <!--</legend>-->
+                    <div class="table-responsive">
+                        <table class="table">
+
+                            <thead>
+                            <tr>
+                                <th>线路编号</th>
+                                <th>线路名称</th>
+                                <th>单价</th>
+                                <th>出行工具</th></tr>
+                            </thead>
+                            <tbody id="shopping_cart">
+                            <tr>
+                                <td>1</td>
+                                <td >cc</td>
+                                <td>123344</td>
+                                <td>飞机</td>
+                            </tr>
+
+
+                            </tbody>
+                        </table>
+                    </div>
+
+
+
+                </fieldset>
+            </form>
+        </div>
+    </div>
+
+
+    <div class="panel panel-danger" style="border-bottom-style: none">
+        <div class="panel-heading">
+            填写游客信息
+        </div>
+        <div class="panel-body">
+            <form class="form-horizontal" role="form" id="main_Form">
+                <fieldset style="padding-bottom: 10px">
+                    <legend id="legendaa" >
+                        出发日期
+                    </legend>
+
+                        <p id="p1" onload="tt1()">qwrewr</p>
+
+
+                </fieldset>
+
+                <fieldset  class="field">
+                    <legend >
+                        游客信息
+                    </legend>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">真实姓名</label>
+                        <div class="col-sm-10">
+                           <p id="name0"></p>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label  class="col-sm-2 control-label">身份证号</label>
+                        <div class="col-sm-10">
+                            <p id="idCard0"></p>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label  class="col-sm-2 control-label">手机号</label>
+                        <div class="col-sm-10">
+                            <p id="mobile0"></p>
+                        </div>
+                    </div>
+
+                </fieldset>
+
+
+            </form>
+
+            <div class="col-sm-offset-5 col-sm-10">
+                <button class="btn btn-danger" onclick="AddNewTourists()"><span>添加新的游客信息</span></button>
+            </div>
+
+            <div class="col-sm-offset-10 col-sm-12" >
+                <a href="#">
+                    <button  class="btn btn-default" >下一步</button>
+                </a>
+            </div>
+
+        </div>
+    </div>
+</div>
+<script>
+
+
+    document.getElementById("p1").innerHTML=getUrlParam('date');
+    document.getElementById("name0").innerHTML=getUrlParam('name0');
+    document.getElementById("idCard0").innerHTML=getUrlParam('idCard0');
+    document.getElementById("mobile0").innerHTML=getUrlParam('mobile0');
+
+    for(var i=1;i<getUrlParam('num');i++)
+    {
+        alert("aaaa");
+        var touristsFieldset = document.createElement("FIELDSET");
+        touristsFieldset.classList.add("field");
+        var touristsLegend = document.createElement("LE" +
+            "GEND");
+        var touristsLegendText = document.createTextNode("游客信息");
+        touristsLegend.append(touristsLegendText);
+
+
+        var div1 = document.createElement("div");
+        div1.classList.add("form-group");
+
+
+        var label1 = document.createElement("Label");
+        label1.classList.add("col-sm-2","control-label");
+
+        label1.for=("name"+i);
+        var label1_text = document.createTextNode("真实姓名");
+        label1.append(label1_text);
+        div1.append(label1);
+
+        var div1_1= document.createElement("div");
+        div1_1.classList.add("col-sm-10");
+        div1.append(div1_1);
+
+        var input1 = document.createElement("input");
+        input1.classList.add("form-control");
+        input1.id = ("name"+i);
+        input1.type="text";
+        input1.placeholder = ("请输入姓名");
+        div1_1.append(input1);
+        // 姓名
+
+        var div2 = document.createElement("div");
+        div2.classList.add("form-group");
+
+
+        var label2 = document.createElement("Label");
+        label2.classList.add("col-sm-2","control-label");
+
+        label2.for=("idCard"+i);
+        var label2_text = document.createTextNode("身份证号");
+        label2.append(label2_text);
+        div2.append(label2);
+
+        var div2_1= document.createElement("div");
+        div2_1.classList.add("col-sm-10");
+        div2.append(div2_1);
+
+        var input2 = document.createElement("input");
+        input2.classList.add("form-control");
+        input2.id = ("idCard"+i);
+        input2.type="text";
+        input2.placeholder = ("请输入身份证号");
+        div2_1.append(input2);
+        // 身份证号
+        var div3 = document.createElement("div");
+        div3.classList.add("form-group");
+
+
+        var label3 = document.createElement("Label");
+        label3.classList.add("col-sm-2","control-label");
+
+        label3.for=("mobile"+i);
+        var label3_text = document.createTextNode("手机号");
+        label3.append(label3_text);
+        div3.append(label3);
+
+        var div3_1= document.createElement("div");
+        div3_1.classList.add("col-sm-10");
+        div3.append(div3_1);
+
+        var input3 = document.createElement("input");
+        input3.classList.add("form-control");
+        input3.id = ("mobile"+i);
+        input3.type="text";
+        input3.placeholder = ("请输入手机号");
+        div3_1.append(input3);
+
+        // 手机号
+
+        document.getElementById("mobile"+i).innerHTML=getUrlParam('mobile'+i);
+
+    }
+
+</script>
+</body>
+</html>
