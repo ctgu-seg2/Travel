@@ -351,8 +351,6 @@
                 </h4>
                 <div class="container" >
                     <!--待修改各类旅游计划的最热前六名-->
-
-
                     <div class="col-md-12" style="margin: 1em auto" id="island_top6">
                         <div class="col-md-6" >
                             <a href="#" ></a><br>
@@ -387,8 +385,6 @@
                 </h4>
                 <div class="container" >
                     <!--待修改各类旅游计划的最热前六名-->
-
-
                     <div class="col-md-12" style="margin: 1em auto" id="self_top6">
                         <div class="col-md-6" >
                             <a href="#" ></a><br>
@@ -422,12 +418,13 @@
 </div>
 
 
-
+<!--白底部分-->
 <div class="white_back">
     <!--团购部分-->
-    <div class="container" style="width: 76%" >
+        <div class="container" style="width: 76%" >
     <div class="row clearfix">
-        <!--白色界面-->
+        <!--白色背景-->
+        <!--标题-->
         <div class="col-md-12 column">
             <div class="col-md-12">
                 <h1 class="red-word">
@@ -436,13 +433,13 @@
             </div>
             
         </div>
+        <!--图片-->
         <div class="col-md-12 column" style="margin: 1em auto" id="group_chase">
             <div class="col-md-4">
                 <div style="margin: 0 auto"  >
                     <a href="">
                         <img  >
                     </a>
-
                 </div>
 
             </div>
@@ -513,13 +510,6 @@
         </div>
         </div>
         </div>
-
-
-
-
-
-
-
 
 
 
@@ -630,58 +620,60 @@
     </div>
 
 
-    <!--简略视图-->
+    <!--四种旅游详细视图-->
     <div class="container">
+        <!--导航-->
         <ul id="myTab" class="nav nav-tabs">
-            <li class="active"><a href="#out" data-toggle="tab">境外游</a></li>
+            <li class="active"><a href="#" data-toggle="tab">境外游</a></li>
             <li><a href="#in" data-toggle="tab">境内游</a></li>
             <li><a href="#island" data-toggle="tab">海岛游</a></li>
             <li><a href="#self" data-toggle="tab">自驾游</a></li>
-
-
         </ul>
+
+        <!--具体页面-->
         <div id="myTabContent" class="tab-content">
             <!--境外游-->
             <div class="tab-pane fade in active" id="out_top3">
-                <!--境外游热门推荐-->
+                <!--列出三个景点-->
                 <div>
+                <!--第一行景点-->
                 <div class="row clearfix" style="margin-bottom: 2em">
-
-
-
+                    <!--图片列-->
                     <div class="col-md-3">
                         <img src="images/g4.jpg" alt=""  style="width: 100%">
-
+                        <!--介绍图片-->
                     </div>
+
+
+                    <!--详情列-->
                     <div class="col-md-6" style="line-height: 2em">
                         <h3>
                             <a href="#" style="display: inline"></a>
+                            <!--景点名称-->
                         </h3>
                         简介：
                         <p id="out_top3_jian"></p>
-
-                            <span class="glyphicon glyphicon-flag" style="color: rgb(234, 65, 60);"> </span>&nbsp;人旅行过
+                        <!--简介-->
+                        <span class="glyphicon glyphicon-flag" style="color: rgb(234, 65, 60);">
+                            <!--添加p标签填写人数-->
+                        </span>&nbsp;人旅行过
 
 
 
                     </div>
-                    <div class="col-md-3" >
 
+                    <!--单价列-->
+                    <div class="col-md-3" >
                         <p  style="color: #f1222d;font-weight: bold;font-style: italic;margin-top: 5em">
                             ￥
                             <span id ="out_top3-price">
-
+                                    <!--添加p标签填写单价-->
                             </span>
                             /每人
-
                         </p>
-
                     </div>
-
-
-
                 </div>
-
+                <!--第二行景点-->
                 <div class="row clearfix" style="margin-bottom: 2em">
 
 
@@ -718,6 +710,7 @@
 
 
                 </div>
+                <!--第三行景点-->
                 <div class="row clearfix" style="margin-bottom: 2em">
 
 
@@ -753,17 +746,15 @@
                 </div>
                 </div>
             </div>
+            <!--以下都未作，可从上面复制粘贴-->
+            <!--境内游-->
             <div class="tab-pane fade" id="in">
                 <!--境内游热门推荐-->
                 <div >
                     <!--第一行-->
                     <div class="row clearfix" style="margin-bottom: 2em">
-
-
-
                         <div class="col-md-3">
                             <img src="images/g4.jpg" alt=""  style="width: 100%">
-
                         </div>
                         <div class="col-md-6" style="line-height: 2em">
                             <h3>
@@ -774,79 +765,54 @@
                             <p style="padding-top: 2em">
                                 <span class="glyphicon glyphicon-flag" style="color: rgb(234, 65, 60);"> </span>&nbsp;人旅行过
                             </p>
-
-
                         </div>
                         <div class="col-md-3" >
-
                             <p  style="color: #f1222d;font-weight: bold;font-style: italic;margin-top: 5em">
                                 ￥
                                 <span id ="境内游热门-1-price">
-                               5566
-                            </span>
+                                </span>
                                 /每人
-
                             </p>
-
                         </div>
-
-
-
                     </div>
                     <!--第二行-->
                     <div class="row clearfix" style="margin-bottom: 2em">
-
-
-
                         <div class="col-md-3">
                             <img src="images/g4.jpg" alt=""  style="width: 100%">
-
                         </div>
                         <div class="col-md-6" style="line-height: 2em">
                             <h3>
-                                <a href="#" style="display: inline">英国三日游</a>
+                                <a href="#" style="display: inline"></a>
                             </h3>
                             简介：
-                            <p id="境内游热门-2">英国伊丽莎白女王巴拉巴拉</p>
+                            <p id=" "></p>
                             <p style="padding-top: 2em">
-                                <span class="glyphicon glyphicon-flag" style="color: rgb(234, 65, 60);"> 15</span>&nbsp;人旅行过
+                                <span class="glyphicon glyphicon-flag" style="color: rgb(234, 65, 60);"> </span>&nbsp;人旅行过
                             </p>
-
-
                         </div>
                         <div class="col-md-3" >
-
                             <p  style="color: #f1222d;font-weight: bold;font-style: italic;margin-top: 5em">
                                 ￥
                                 <span id ="境内游热门-2-price">
-                               5566
-                            </span>
+                                </span>
                                 /每人
-
                             </p>
-
                         </div>
-
-
-
                     </div>
                     <!--第三行-->
                     <div class="row clearfix" style="margin-bottom: 2em">
-
-
-
                         <div class="col-md-3">
                             <img src="images/g4.jpg" alt=""  style="width: 100%">
 
                         </div>
                         <div class="col-md-6" style="line-height: 2em">
                             <h3>
-                                <a href="#" style="display: inline">英国三日游</a>
+                                <a href="#" style="display: inline"></a>
                             </h3>
                             简介：
-                            <p id="境内游热门-3">英国伊丽莎白女王巴拉巴拉</p>
+                            <p id="境内游热门-3"></p>
                             <p style="padding-top: 2em">
-                                <span class="glyphicon glyphicon-flag" style="color: rgb(234, 65, 60);"> 15</span>&nbsp;人旅行过
+                                <span class="glyphicon glyphicon-flag" style="color: rgb(234, 65, 60);"> </span>&nbsp;人旅行过
                             </p>
 
 
@@ -856,54 +822,40 @@
                             <p  style="color: #f1222d;font-weight: bold;font-style: italic;margin-top: 5em">
                                 ￥
                                 <span id ="境内游热门-3-price">
-                               5566
-                            </span>
+                                </span>
                                 /每人
-
                             </p>
 
                         </div>
                     </div>
                 </div>
             </div>
+            <!--海岛游-->
             <div class="tab-pane fade" id="island">
-                <!--境外游热门推荐-->
+                <!--海岛游热门推荐-->
                 <div>
                     <div class="row clearfix" style="margin-bottom: 2em">
-
-
-
                         <div class="col-md-3">
                             <img src="images/g4.jpg" alt=""  style="width: 100%">
-
                         </div>
                         <div class="col-md-6" style="line-height: 2em">
                             <h3>
-                                <a href="#" style="display: inline">英国三日游</a>
+                                <a href="#" style="display: inline"></a>
                             </h3>
                             简介：
-                            <p id="海岛游热门-1">英国伊丽莎白女王巴拉巴拉</p>
+                            <p id="海岛游热门-1"></p>
                             <p style="padding-top: 2em">
-                                <span class="glyphicon glyphicon-flag" style="color: rgb(234, 65, 60);"> 15</span>&nbsp;人旅行过
+                                <span class="glyphicon glyphicon-flag" style="color: rgb(234, 65, 60);"> </span>&nbsp;人旅行过
                             </p>
-
-
                         </div>
                         <div class="col-md-3" >
-
                             <p  style="color: #f1222d;font-weight: bold;font-style: italic;margin-top: 5em">
                                 ￥
                                 <span id ="海岛游热门-1-price">
-                               5566
-                            </span>
+                                </span>
                                 /每人
-
                             </p>
-
                         </div>
-
-
-
                     </div>
 
                     <div class="row clearfix" style="margin-bottom: 2em">
@@ -912,35 +864,25 @@
 
                         <div class="col-md-3">
                             <img src="images/g4.jpg" alt=""  style="width: 100%">
-
                         </div>
                         <div class="col-md-6" style="line-height: 2em">
                             <h3>
-                                <a href="#" style="display: inline">英国三日游</a>
+                                <a href="#" style="display: inline"></a>
                             </h3>
                             简介：
-                            <p id="海岛游热门-2">英国伊丽莎白女王巴拉巴拉</p>
+                            <p id="海岛游热门-2"></p>
                             <p style="padding-top: 2em">
-                                <span class="glyphicon glyphicon-flag" style="color: rgb(234, 65, 60);"> 15</span>&nbsp;人旅行过
+                                <span class="glyphicon glyphicon-flag" style="color: rgb(234, 65, 60);"> </span>&nbsp;人旅行过
                             </p>
-
-
                         </div>
                         <div class="col-md-3" >
-
                             <p  style="color: #f1222d;font-weight: bold;font-style: italic;margin-top: 5em">
                                 ￥
                                 <span id ="海岛游热门-2-price">
-                               5566
-                            </span>
+                                </span>
                                 /每人
-
                             </p>
-
                         </div>
-
-
-
                     </div>
                     <div class="row clearfix" style="margin-bottom: 2em">
 
@@ -948,37 +890,32 @@
 
                         <div class="col-md-3">
                             <img src="images/g4.jpg" alt=""  style="width: 100%">
-
                         </div>
                         <div class="col-md-6" style="line-height: 2em">
                             <h3>
-                                <a href="#" style="display: inline">英国三日游</a>
+                                <a href="#" style="display: inline"></a>
                             </h3>
                             简介：
-                            <p id="海岛游热门-3">英国伊丽莎白女王巴拉巴拉</p>
+                            <p id="海岛游热门-3"></p>
                             <p style="padding-top: 2em">
                                 <span class="glyphicon glyphicon-flag" style="color: rgb(234, 65, 60);"> 15</span>&nbsp;人旅行过
                             </p>
 
-
                         </div>
                         <div class="col-md-3" >
-
                             <p  style="color: #f1222d;font-weight: bold;font-style: italic;margin-top: 5em">
                                 ￥
                                 <span id ="海岛游热门-3-price">
-                               5566
-                            </span>
+                                </span>
                                 /每人
-
                             </p>
-
                         </div>
                     </div>
                 </div>
             </div>
+            <!--自驾游-->
             <div class="tab-pane fade" id="self">
-                <!--境外游热门推荐-->
+                <!--自驾游热门推荐-->
                 <div>
                     <div class="row clearfix" style="margin-bottom: 2em">
 
@@ -1054,12 +991,8 @@
 
                     </div>
                     <div class="row clearfix" style="margin-bottom: 2em">
-
-
-
                         <div class="col-md-3">
                             <img src="images/g4.jpg" alt="">
-
                         </div>
                         <div class="col-md-6" style="line-height: 2em;text-align: right">
                             <h3>
@@ -1070,7 +1003,6 @@
                             <p style="padding-top: 2em">
                                 <span class="glyphicon glyphicon-flag" style="color: rgb(234, 65, 60);"> 15</span>&nbsp;人旅行过
                             </p>
-
 
                         </div>
                         <div class="col-md-3" >
@@ -1092,7 +1024,7 @@
     </div>
 </div>
 
-</div>
+
 
 
 

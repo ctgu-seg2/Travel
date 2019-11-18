@@ -51,6 +51,9 @@
         .field{
             margin: 10px auto;
         }
+        p{
+           padding-top: 7px;
+        }
 
 
     </style>
@@ -176,7 +179,7 @@
                             <tr>
                                 <td>1</td>
                                 <td >cc</td>
-                                <td>123344</td>
+                                <td id="money">123344</td>
                                 <td>飞机</td>
                             </tr>
 
@@ -237,14 +240,19 @@
 
             </form>
 
-            <div class="col-sm-offset-5 col-sm-10">
-                <button class="btn btn-danger" onclick="AddNewTourists()"><span>添加新的游客信息</span></button>
+            <!--<div class="col-sm-offset-5 col-sm-10">-->
+                <!--<button class="btn btn-danger" onclick="AddNewTourists()"><span>添加新的游客信息</span></button>-->
+            <!--</div>-->
+            <div class="col-sm-offset-8 col-sm-12">
+                <p>应付金额</p>
+                <p id="AllMoney"></p>
+                <p>元</p>
             </div>
-
-            <div class="col-sm-offset-10 col-sm-12" >
+            <div class="col-sm-offset-6 col-sm-12" >
                 <a href="#">
-                    <button  class="btn btn-default" >下一步</button>
+                    <button  class="btn btn-danger" >结算</button>
                 </a>
+
             </div>
 
         </div>
@@ -260,37 +268,33 @@
 
     for(var i=1;i<getUrlParam('num');i++)
     {
-        alert("aaaa");
+        // alert("aaaa");
         var touristsFieldset = document.createElement("FIELDSET");
         touristsFieldset.classList.add("field");
-        var touristsLegend = document.createElement("LE" +
-            "GEND");
+        // legend
+        var touristsLegend = document.createElement("LEGEND");
         var touristsLegendText = document.createTextNode("游客信息");
         touristsLegend.append(touristsLegendText);
+
 
 
         var div1 = document.createElement("div");
         div1.classList.add("form-group");
 
-
         var label1 = document.createElement("Label");
         label1.classList.add("col-sm-2","control-label");
-
-        label1.for=("name"+i);
         var label1_text = document.createTextNode("真实姓名");
         label1.append(label1_text);
         div1.append(label1);
-
         var div1_1= document.createElement("div");
         div1_1.classList.add("col-sm-10");
+        var p1 =document.createElement("p");
+        p1.id="name"+i;
+        p1.innerHTML=getUrlParam(p1.id);
+        div1_1.append(p1);
+
         div1.append(div1_1);
 
-        var input1 = document.createElement("input");
-        input1.classList.add("form-control");
-        input1.id = ("name"+i);
-        input1.type="text";
-        input1.placeholder = ("请输入姓名");
-        div1_1.append(input1);
         // 姓名
 
         var div2 = document.createElement("div");
@@ -300,21 +304,20 @@
         var label2 = document.createElement("Label");
         label2.classList.add("col-sm-2","control-label");
 
-        label2.for=("idCard"+i);
         var label2_text = document.createTextNode("身份证号");
         label2.append(label2_text);
         div2.append(label2);
 
         var div2_1= document.createElement("div");
         div2_1.classList.add("col-sm-10");
+        var p2 =document.createElement("p");
+        p2.id="idCard"+i;
+        div2_1.append(p2);
+
         div2.append(div2_1);
 
-        var input2 = document.createElement("input");
-        input2.classList.add("form-control");
-        input2.id = ("idCard"+i);
-        input2.type="text";
-        input2.placeholder = ("请输入身份证号");
-        div2_1.append(input2);
+        p2.innerHTML=getUrlParam(p2.id);
+
         // 身份证号
         var div3 = document.createElement("div");
         div3.classList.add("form-group");
@@ -323,28 +326,42 @@
         var label3 = document.createElement("Label");
         label3.classList.add("col-sm-2","control-label");
 
-        label3.for=("mobile"+i);
         var label3_text = document.createTextNode("手机号");
         label3.append(label3_text);
         div3.append(label3);
 
         var div3_1= document.createElement("div");
         div3_1.classList.add("col-sm-10");
+        var p3 =document.createElement("p");
+        p3.id="idCard"+i;
+        div3_1.append(p3);
+
         div3.append(div3_1);
 
-        var input3 = document.createElement("input");
-        input3.classList.add("form-control");
-        input3.id = ("mobile"+i);
-        input3.type="text";
-        input3.placeholder = ("请输入手机号");
-        div3_1.append(input3);
+        p3.innerHTML=getUrlParam(p3.id);
 
         // 手机号
 
-        document.getElementById("mobile"+i).innerHTML=getUrlParam('mobile'+i);
+        // document.getElementById("mobile"+i).innerHTML=getUrlParam('mobile'+i);
+
+        touristsFieldset.append(touristsLegend,div1,div2,div3);
+        // 每次新增一个fieldset
+        //
+        // var p = document.createElement("p");
+        // p.innerHTML+="22222";
+        var form = document.getElementById("main_Form");
+        form.append(touristsFieldset);
+
 
     }
 
+// 计算金额
+    var money = document.getElementById("money").innerHTML;
+    var n = getUrlParam('num');
+    var sum=n*money;
+    // `d `
+    var Allmoney = document.getElementById("AllMoney");
+    Allmoney.innerHTML=sum.toString();
 </script>
 </body>
 </html>
