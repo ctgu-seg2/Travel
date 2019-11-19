@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <style>
+
         img{
             width: 100%;
         }
@@ -49,7 +50,7 @@
         }
         .red-word{
 
-            font-family:'Arial Black';
+            /* font-family:'Arial Black'; */
             font-weight: bold;
             font-style: italic;
             color: rgba(241,34,45,0.94);
@@ -69,7 +70,7 @@
             position: relative ;
             left: -0.5em;
             top: -0.5em;
-            font-family: 'SketchFlow Print';
+            /* font-family: 'Arial Black'; */
             font-style: italic;
             font-weight: bold;
             color: rgba(241, 34, 45, 0.91);
@@ -92,7 +93,11 @@
             $.ajax({
                 type : "GET",
                 url:" ",
-                data : "JSON",
+                data : "JSON", 
+                crossDomain:true,
+                beforeSend:function(xhr){
+                    xhr.withCredentials = true; 
+                },
                 success:function()
                 {
                     $img=$("img");
@@ -234,10 +239,10 @@
                         <div class="row clearfix" >
                             <div class="container" >
                                 <div class="col-md-12 column" style="background-color: rgb(255,82,62);border-radius: 5px;color: rgb(255,250,244)">
-                                    <h2 class="text-center" style="font-family: 'Segoe Script';margin-bottom: 0" >
+                                    <h2 class="text-center" style="margin-bottom: 0" >
                                         Brandi
                                     </h2>
-                                    <h6 class="text-center" style = "font-family: '微软雅黑 Light';color: black;font-weight: bold;margin-top: 0">
+                                    <h6 class="text-center" style = "color: black;font-weight: bold;margin-top: 0">
                                         T  A  G
                                         &nbsp;&nbsp;&nbsp;&nbsp;
                                         L  I  N  E

@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^1.19.4",
+    "sqlite3": "^4.1.0"
+  },
+  "name": "project",
+  "version": "1.0.0",
+  "main": "routes.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
