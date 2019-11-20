@@ -14,10 +14,29 @@ var db = new sqlite3.Database('./database/travel.db',sqlite3.OPEN_READWRITE, (er
     console.log('Connect to the database!');
 });
 
-function getLines(type,sort,num,callback){ 
+function getLines(type,sort,limit,callback){ 
+    //console.log(type,sort,limit);
     let data = []
-    db.serialize(() => {//串行,在外面就是并行
-        db.each('SELECT * FROM Line',(err, row) => {
+    var sql = `SELECT  * FROM Line where lineTypeID == ? order by ? desc limit ?`;
+    var _type;  
+    var _sort;
+    if(type == 'in')_type = '01';
+    if(type == 'out')_type = '02';
+    if(type == 'island')_type = '03';
+    if(type == 'self')_type = '04';
+
+    if(sort == 'fresh')_sort = 'onTime';
+    if(sort == 'hot')_sort = 'hot';
+    // console.log(_type);
+    // console.log(_sort);
+    // console.log(limit);
+    db.serialize(() => {//串行,在外面就是并行    
+        db.each(sql,
+            [
+                _type,//'01',
+                _sort,//'hot',
+                limit//6
+            ], (err, row) => {
             if(err) {
                 throw err;
             } else {

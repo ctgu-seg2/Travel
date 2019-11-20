@@ -19,11 +19,11 @@ router.get('/', (req, res, next) => {
 //type={out,in,island,self}
 //sort={hot,recent}
 //num={1~10}
-router.get('/lines', async(req, res, next) => {
-    var type = req.query.type;
-    var sort = req.query.sort;
-    var num = req.query.num;
-    var data = await lines.getLines(type,sort,num,(data)=>{      
+router.get('/top-products', async(req, res, next) => {
+    // var type = req.query.type;
+    // var sort = req.query.sort;
+    // var num = req.query.num;
+    var data = await lines.getLines(req.query.type,req.query.sort,req.query.limit,(data)=>{      
         res.send(data);
     }); 
     //console.log(data);

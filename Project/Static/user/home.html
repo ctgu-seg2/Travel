@@ -29,13 +29,13 @@
 
         }
         .container{
-           width: 85%;
+           width: 90%;
 
         }
         .block_back{
             /*width: 22%;*/
             /*列出四种旅游方式的背景板*/
-            height: 20em;
+            height: 28em;
             background-color: white;
             border-color: #2b542c;
             border-width: thin;
@@ -85,106 +85,166 @@
 
     </style>
 
-    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="user/js/jquery-3.4.1.min.js"></script>
     <!--单独导入jquery文件-->
     <script>
         $(document).ready(function(){
 
+            // 通用功能函数处理数据
+            const eachFunction = (i, elem, data) => {
+                var lines = eval(data)
+                tag = $(elem.getElementsByTagName('a'))
+                if(i<lines.length){
+                    tag.html(lines[i].lineName)
+                    tag.attr({"href": 'user/Main.html'}) 
+                }
+            }       
+
+            //境外游板块
             $.ajax({
                 type : "GET",
-                url:"hello",
+                url:"top-products?type=out&sort=hot&desc=hot&limit=6",
                 data : "JSON", 
-                crossDomain:true,
-                beforeSend:function(xhr){
-                    xhr.withCredentials = true; 
-                },
-                success:function()
-                {
-                    $img=$("img");
-                    $img.attr({alt:"loading img fail！"});
+                success:function(data){
+                    $("#out_top6 > .col-md-6").each(function(i, elem){
+                       eachFunction(i, elem, data)
+                    }); 
+                }              
+            })
+            //境内游板块
+            $.ajax({
+                type : "GET",
+                url:"top-products?type=in&sort=hot&desc=hot&limit=6",
+                data : "JSON", 
+                success:function(data){
+                    var lines = eval(data);//将json字符串转换成json对象。
+                    $("#in_top6 > .col-md-6").each(function(i, elem){
+                        eachFunction(i, elem, data)             
+                    }); 
+                }              
+            })
+            //海岛游板块
+            $.ajax({
+                type : "GET",
+                url:"top-products?type=island&sort=hot&desc=hot&limit=6",
+                data : "JSON", 
+                success:function(data){
+                    var lines = eval(data);//将json字符串转换成json对象。
+                    $("#island_top6 > .col-md-6").each(function(i, elem){
+                            eachFunction(i, elem, data)
+                        }                       
+                    ); 
+                }              
+            })
+            //自驾游板块
+            $.ajax({
+                type : "GET",
+                url:"top-products?type=self&sort=hot&desc=hot&limit=6",
+                data : "JSON", 
+                success:function(data){
+                    var lines = eval(data);//将json字符串转换成json对象。
+                    $("#self_top6 > .col-md-6").each(function(i, elem){
+                            eachFunction(i, elem, data)
+                        }                    
+                    ); 
+                }              
+            })
+            // //
+            // $.ajax({
+            //     type : "GET",
+            //     url:"hello",
+            //     data : "JSON", 
+            //     crossDomain:true,
+            //     beforeSend:function(xhr){
+            //         xhr.withCredentials = true; 
+            //     },
+            //     success:function()
+            //     {
+            //         $img=$("img");
+            //         $img.attr({alt:"loading img fail！"});
 
-                    // $img.attr({src:"images/g1.jpg"});
-                        // 分类旅游最热推荐
+            //         // $img.attr({src:"images/g1.jpg"});
+            //             // 分类旅游最热推荐
 
 
-                           $("#out_top6 div").each(function(i)
-                               {
-                                   $outTop6 = $("#out_top6 div a");
-                                   $outTop6.html("广州");
-                                   $outTop6.attr({href:""})
-                               }
-                           );
-                           $("#in_top6 div").each(function(i)
-                               {
-                                   $inTop6 = $("#in_top6 div a");
-                                   $inTop6.html("广州");
-                                   $inTop6.attr({href:""})
-                               }
-                           );
-                           $("#island_top6 div").each(function(i)
-                               {
-                                   $islandTop6 = $("#island_top6 div a");
-                                   $islandTop6.html("广州");
-                                   $islandTop6.attr({href:""})
-                               }
-                           );
-                           $("#self_top6 div").each(function(i)
-                               {
-                                   $selfTop6 = $("#self_top6 div a");
-                                   $selfTop6.html("广州");
-                                   $selfTop6.attr({href:""})
-                               }
-                           );
+            //                $("#out_top6 div").each(function(i)
+            //                    {
+            //                        $outTop6 = $("#out_top6 div a");
+            //                        $outTop6.html("广州");
+            //                        $outTop6.attr({href:""})
+            //                    }
+            //                );
+            //                $("#in_top6 div").each(function(i)
+            //                    {
+            //                        $inTop6 = $("#in_top6 div a");
+            //                        $inTop6.html("广州");
+            //                        $inTop6.attr({href:""})
+            //                    }
+            //                );
+            //                $("#island_top6 div").each(function(i)
+            //                    {
+            //                        $islandTop6 = $("#island_top6 div a");
+            //                        $islandTop6.html("广州");s
+            //                        $islandTop6.attr({href:""})
+            //                    }
+            //                );
+            //                $("#self_top6 div").each(function(i)
+            //                    {
+            //                        $selfTop6 = $("#self_top6 div a");
+            //                        $selfTop6.html("广州");
+            //                        $selfTop6.attr({href:""})
+            //                    }
+            //                );
 
-                       // 团购
-                            $("#group_chase div").each(function () {
-                                $group=$("#group_chase div div a img");
-                                $group.attr({src:"images/g1.jpg", alt:"wrong"});
-                                }
+            //            // 团购
+            //                 $("#group_chase div").each(function () {
+            //                     $group=$("#group_chase div div a img");
+            //                     $group.attr({src:"images/g1.jpg", alt:"wrong"});
+            //                     }
 
-                            );
+            //                 );
 
 
 
-                            // 多日游
-                             $("#one_day li").each(function()
-                            {
-                                $days_a = $("#one_day li span a");
-                                $days_a.html("China");
-                                $days_a.attr({src: "#"});
-                            });
-                            $("#two_days li").each(function()
-                            {
-                                $days_a = $("#two_days li span a");
-                                $days_a.html("China");
-                                $days_a.attr({src: "#"});
-                            });
-                            $("#days li").each(function()
-                            {
-                                $days_a = $("#days li span a");
-                                $days_a.html("China");
-                                $days_a.attr({src: "#"});
-                            });
+            //                 // 多日游
+            //                  $("#one_day li").each(function()
+            //                 {
+            //                     $days_a = $("#one_day li span a");
+            //                     $days_a.html("China");
+            //                     $days_a.attr({src: "#"});
+            //                 });
+            //                 $("#two_days li").each(function()
+            //                 {
+            //                     $days_a = $("#two_days li span a");
+            //                     $days_a.html("China");
+            //                     $days_a.attr({src: "#"});
+            //                 });
+            //                 $("#days li").each(function()
+            //                 {
+            //                     $days_a = $("#days li span a");
+            //                     $days_a.html("China");
+            //                     $days_a.attr({src: "#"});
+            //                 });
 
-                            //缩略视图
-                            $("#out_top3 div div").each(function()
-                            {
-                                $out_top3_name= $("#out_top3 div div div h3 a");
-                                $out_top3_name.html("佛罗伦萨");
+            //                 //缩略视图
+            //                 $("#out_top3 div div").each(function()
+            //                 {
+            //                     $out_top3_name= $("#out_top3 div div div h3 a");
+            //                     $out_top3_name.html("佛罗伦萨");
 
-                                $out_top3_jian = $("#out_top3_jian");
-                                $out_top3_jian.html("这里是简介");
+            //                     $out_top3_jian = $("#out_top3_jian");
+            //                     $out_top3_jian.html("这里是简介");
 
-                                $out_top3_person = $("#out_top3 div div div span ");
-                                $out_top3_person.html("12");
+            //                     $out_top3_person = $("#out_top3 div div div span ");
+            //                     $out_top3_person.html("12");
 
-                                $out_top3_price = $("#out_top3-price ");
-                                $out_top3_price.html("12");
-                            })
+            //                     $out_top3_price = $("#out_top3-price ");
+            //                     $out_top3_price.html("12");
+            //                 })
 
-                }
-                }
-            );
+            //     }
+            //     }
+            // );
 
 
             $(document).ajaxError(function(){
@@ -192,7 +252,6 @@
             });
 
             // alert("hello world!");
-
         });
 
 
@@ -211,10 +270,10 @@
 
 
 </head>
-<body style="background-image: url(images/2.png) ">
+<body style="background-image: url(user/images/2.png) ">
 
 <script>
-    a="images/2.png"
+    a="user/images/2.png"
 </script>
 <div style="background-color: rgba(16,22,40,0.96);margin: 0 auto ;padding: 0.5em 0 0.3em 0">
 <!--页首-->
@@ -645,7 +704,7 @@
                 <div class="row clearfix" style="margin-bottom: 2em">
                     <!--图片列-->
                     <div class="col-md-3">
-                        <img src="images/g4.jpg" alt=""  style="width: 100%">
+                        <img src="user/images/g4.jpg" alt=""  style="width: 100%">
                         <!--介绍图片-->
                     </div>
 
@@ -684,7 +743,7 @@
 
 
                     <div class="col-md-3">
-                        <img src="images/g4.jpg" alt=""  style="width: 100%">
+                        <img src="user/images/g4.jpg" alt=""  style="width: 100%">
 
                     </div>
                     <div class="col-md-6" style="line-height: 2em">
@@ -721,7 +780,7 @@
 
 
                     <div class="col-md-3">
-                        <img src="images/g4.jpg" alt=""  style="width: 100%">
+                        <img src="user/images/g4.jpg" alt=""  style="width: 100%">
 
                     </div>
                     <div class="col-md-6" style="line-height: 2em">
@@ -759,7 +818,7 @@
                     <!--第一行-->
                     <div class="row clearfix" style="margin-bottom: 2em">
                         <div class="col-md-3">
-                            <img src="images/g4.jpg" alt=""  style="width: 100%">
+                            <img src="user/images/g4.jpg" alt=""  style="width: 100%">
                         </div>
                         <div class="col-md-6" style="line-height: 2em">
                             <h3>
@@ -783,7 +842,7 @@
                     <!--第二行-->
                     <div class="row clearfix" style="margin-bottom: 2em">
                         <div class="col-md-3">
-                            <img src="images/g4.jpg" alt=""  style="width: 100%">
+                            <img src="user/images/g4.jpg" alt=""  style="width: 100%">
                         </div>
                         <div class="col-md-6" style="line-height: 2em">
                             <h3>
@@ -807,7 +866,7 @@
                     <!--第三行-->
                     <div class="row clearfix" style="margin-bottom: 2em">
                         <div class="col-md-3">
-                            <img src="images/g4.jpg" alt=""  style="width: 100%">
+                            <img src="user/images/g4.jpg" alt=""  style="width: 100%">
 
                         </div>
                         <div class="col-md-6" style="line-height: 2em">
@@ -841,7 +900,7 @@
                 <div>
                     <div class="row clearfix" style="margin-bottom: 2em">
                         <div class="col-md-3">
-                            <img src="images/g4.jpg" alt=""  style="width: 100%">
+                            <img src="user/images/g4.jpg" alt=""  style="width: 100%">
                         </div>
                         <div class="col-md-6" style="line-height: 2em">
                             <h3>
@@ -868,7 +927,7 @@
 
 
                         <div class="col-md-3">
-                            <img src="images/g4.jpg" alt=""  style="width: 100%">
+                            <img src="user/images/g4.jpg" alt=""  style="width: 100%">
                         </div>
                         <div class="col-md-6" style="line-height: 2em">
                             <h3>
@@ -894,7 +953,7 @@
 
 
                         <div class="col-md-3">
-                            <img src="images/g4.jpg" alt=""  style="width: 100%">
+                            <img src="user/images/g4.jpg" alt=""  style="width: 100%">
                         </div>
                         <div class="col-md-6" style="line-height: 2em">
                             <h3>
@@ -927,7 +986,7 @@
 
 
                         <div class="col-md-3">
-                            <img src="images/g4.jpg" alt=""  style="width: 100%">
+                            <img src="user/images/g4.jpg" alt=""  style="width: 100%">
 
                         </div>
                         <div class="col-md-6" style="line-height: 2em">
@@ -964,7 +1023,7 @@
 
 
                         <div class="col-md-3">
-                            <img src="images/g4.jpg" alt=""  style="width: 100%">
+                            <img src="user/images/g4.jpg" alt=""  style="width: 100%">
 
                         </div>
                         <div class="col-md-6" style="line-height: 2em">
@@ -997,7 +1056,7 @@
                     </div>
                     <div class="row clearfix" style="margin-bottom: 2em">
                         <div class="col-md-3">
-                            <img src="images/g4.jpg" alt="">
+                            <img src="user/images/g4.jpg" alt="">
                         </div>
                         <div class="col-md-6" style="line-height: 2em;text-align: right">
                             <h3>

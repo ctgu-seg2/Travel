@@ -6,7 +6,7 @@ require('dotenv').config()
 //app
 const app = express();
 //ejs
-
+    
 // static files
 app.use(express.static('./static'));
 
