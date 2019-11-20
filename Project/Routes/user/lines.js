@@ -1,25 +1,32 @@
-const express = require('express');
-const router = express.Router();
 const sqlite3 = require('sqlite3').verbose();  
+require('dotenv').config({ path: '../../config' })
 
-let db = new sqlite3.Database('./DB/sqlite.db', (err) => {
+//使用绝对路径，用读写模式打开可以成功访问数据库
+//如果路径上没有，会创建一个空的内存数据库
+var db = new sqlite3.Database('E:/Willian_pc/Git/CTGUTravel/Project/database/travel.db',sqlite3.OPEN_READWRITE, (err) => {
+//var db = new sqlite3.Database(process.env.DATABASE_DIR, sqlite3.OPEN_READWRITE,(err) => {
     if(err) {
         return console.error(err.message);
-    }
+    }   
+
     console.log('Connect to the database!');
 });
 
-router.get('/', (req, res) => {
-    var data;
-    db.serialize(() => {
-        db.each('SELECT * FROM Line', (err, row) => {
+function getLines(type,sort,num){
+    var data = new Array();
+    db.serialize(() => {//串行
+        //db.each('SELECT * FROM $table ', {$table:'Line'},(err, row) => {
+        db.each('SELECT * FROM Line',(err, row) => {
             if(err) {
                 throw err;
             }
-            //console.log(row.id + '\t', row.name, row.hint);
+            data.push(row);
+            console.log(row.lineID + '/t', row.lineName, row.lineTypeID);
         });
     });
-    res.send(data);
-});
-
-module.exports = router;
+    console.log(data.length);
+    return data;
+ }
+module.exports = {
+    getLines:getLines
+}
