@@ -19,6 +19,7 @@ router.get('/', (req, res, next) => {
 //type={out,in,island,self}
 //sort={hot,recent}
 //num={1~10}
+//处理线路查询请求，调用getLines函数查询数据库
 router.get('/top-products', async(req, res, next) => {
     // var type = req.query.type;
     // var sort = req.query.sort;
