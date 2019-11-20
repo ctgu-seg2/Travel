@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>后台管理系统</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+<style>
+    .header {
+        padding: 10px;
+        text-align: left;
+        background: #1abc9c;
+        color: white;
+    }
+
+    /* 标题字体加大 */
+    .header h1 {
+        font-size: 40px;
+        font-family: "华文隶书";
+    }
+    .navbar1 {
+        overflow: hidden;
+        background-color: #333;
+    }
+
+        /*两列布局*/
+        #container{
+            display: -webkit-box;
+            display: -moz-box;
+            margin: 0 auto;
+        }
+    #main
+    {
+        -webkit-flex: 1;
+        width: 80%;
+        padding-left: 2px;
+    }
+    #left
+    {
+        background-color: #f1f1f1;
+        padding-top: 100px;
+        height: 50%;
+        width: 20%;
+        padding-top: 50px;
+        padding-left: 40px;
+        padding-bottom: 100%;
+    }
+    #nav
+    {
+        padding: 10px;
+        background-color: #d3d9df;
+        opacity: 0.5;
+    }
+    #nav001
+    {
+        padding-left: 30px;
+        padding-right: 70px;
+        font-family: "华文彩云";
+        font-size: 25px;
+        background-color: #9999ff;
+    }
+    #nav0{
+        padding-top: 50px;
+        padding-left: 20px;
+        padding-right: 50px;
+    }
+
+    ul{
+        margin: 0px;
+        padding: 0px;
+        position: relative;
+    }
+    ul  li
+    {
+        font:0.9em Arial,sans-serif;
+        list-style: none;
+        width: 151px;
+        display: inline;
+        color: #9d9d9d;
+        font-weight: bolder;
+        font-size: 20px;
+
+    }
+
+    ul li a{
+        color: white;
+        width: 120px;
+        margin: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        text-decoration: none;
+        font-size: 14px;
+        display: block;
+        background-color: #d3d9df;
+        line-height: 30px;
+    }
+
+    ui li ul li {
+        height: 35px
+    }
+
+    ul li ul li a{
+        background: dodgerblue;
+        line-height: 30px;
+    }
+    ul li a:hover{
+        background: dodgerblue;
+
+    }
+    ul li ul{
+        display: none;
+    }
+    ul li:hover ul
+    {
+        display: block;
+    }
+    ul li ul li a:hover{
+        background-color: #d3d9df;
+    }
+    .div2
+    {
+        float: left;
+        text-align: center;
+        border: 1px solid;
+        padding: 20px;
+    }
+    .button-table
+    {
+        padding-left: 50px;
+    }
+</style>
+
+</head>
+<body>
+
+<div class="header">
+    <h1>欢迎登录后台管理界面</h1>
+</div>
+
+<div class="navbar1" role="navigation">
+    <div class="container-fluid">
+    <ul class="navbar-right navbar-nav">
+        <li><a href="管理员登录.html"><span class="glyphicon glyphicon-log-out">退出</span> </a></li>
+    </ul>
+            <p class="navbar-right navbar-text">管理员：您好！</p>
+    </div>
+</div>
+<div id="container">
+<div id="left" style="padding-top: 100px">
+    <div class="div2">
+        <ul>
+            <li>旅游线路管理
+                <ul>
+                    <li><a href="后台管理系统旅游线路添加.html">添加线路类型</a></li>
+                    <li><a href="后台管理系统旅游线路查看.html">查看线路类型</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div class="div2">
+        <ul>
+            <li>旅游类型管理
+                <ul>
+                    <li><a href="后台管理系统线路类型添加.html">添加线路类型</a></li>
+                    <li><a href="后台管理系统线路类型查看.html">查看线路类型</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+<br><br>
+</div>
+    <div id="main">
+        <div id="nav">
+            <div id="nav001">
+            <label>查看旅游类型</label>
+            </div>
+        </div>
+        <div id="nav0" style="border: 2px solid;border-color: #9d9d9d;padding-bottom: 30px">
+            <table class="table table-bordered">
+                <caption></caption>
+                <thead style="padding-left:40px">
+                <tr style=" background-color:green;">
+                    <th>序号</th>
+                    <th>类型编号</th>
+                    <th>类型名称</th>
+                    <th>操作</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>001</td>
+                    <td>世界游</td>
+                    <td ><a href="后台管理系统线路类型修改.html"><button type="submit">修改</button></a>
+                        &nbsp;&nbsp;&nbsp;<button type="submit" value="删除">删除</button></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>002</td>
+                    <td>西部游</td>
+                    <td><a href="后台管理系统线路类型修改.html"><button type="submit">修改</button></a>
+                       &nbsp;&nbsp;&nbsp;<button type="submit" value="删除">删除</button></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>003</td>
+                    <td>长城游</td>
+                    <td><a href="后台管理系统线路类型修改.html"><button type="submit">修改</button></a>
+                        &nbsp;&nbsp;&nbsp;<button type="submit" value="删除">删除</button></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>004</td>
+                    <td>欧洲游</td>
+                    <td><a href="后台管理系统线路类型修改.html"><button type="submit">修改</button></a>
+                        &nbsp;&nbsp;&nbsp;<button type="submit" value="删除">删除</button></td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>005</td>
+                    <td>海岛游</td>
+                    <td><a href="后台管理系统线路类型修改.html"><button type="submit">修改</button></a>
+                        &nbsp;&nbsp;&nbsp;<button type="submit" value="删除">删除</button></td>
+                </tr>
+                <tr>
+                    <td colspan="4" style="padding-left: 300px">
+                        <a href="后台管理系统线路类型查看.html"><button type="submit" style="color: #9d9d9d">首页</button></a>
+                        &nbsp;&nbsp;&nbsp;<a href="后台管理系统线路类型查看.html"><button type="submit" style="color: #9d9d9d">上一页</button></a>
+                        &nbsp;&nbsp;&nbsp;<a href="下一页跳转.html"><button type="submit" style="color: #9d9d9d">下一页</button></a>
+                        &nbsp;&nbsp;&nbsp;<a href="下一页跳转.html"><button type="submit" style="color: #9d9d9d">尾页</button></a>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+</div>
+<div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,2121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bb4226b5-d1b5-4a64-b8ed-1d36b8c5e0c7" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file leaf-file-name="后台管理系统旅游线路查看.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/后台管理系统旅游线路查看.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5427">
+              <caret line="201" column="28" lean-forward="false" selection-start-line="201" selection-start-column="28" selection-end-line="201" selection-end-column="28" />
+              <folding>
+                <element signature="e#5322#5328#0" expanded="true" />
+                <element signature="e#5328#5334#0" expanded="true" />
+                <element signature="e#5334#5340#0" expanded="true" />
+                <element signature="e#5738#5744#0" expanded="true" />
+                <element signature="e#5744#5750#0" expanded="true" />
+                <element signature="e#5750#5756#0" expanded="true" />
+                <element signature="e#6155#6161#0" expanded="true" />
+                <element signature="e#6161#6167#0" expanded="true" />
+                <element signature="e#6167#6173#0" expanded="true" />
+                <element signature="e#6571#6577#0" expanded="true" />
+                <element signature="e#6577#6583#0" expanded="true" />
+                <element signature="e#6583#6589#0" expanded="true" />
+                <element signature="e#6985#6991#0" expanded="true" />
+                <element signature="e#6991#6997#0" expanded="true" />
+                <element signature="e#6997#7003#0" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#a#0;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#7298#7304#0" expanded="true" />
+                <element signature="e#7304#7310#0" expanded="true" />
+                <element signature="e#7310#7316#0" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#a#1;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#7432#7438#0" expanded="true" />
+                <element signature="e#7438#7444#0" expanded="true" />
+                <element signature="e#7444#7450#0" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#a#2;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#7561#7567#0" expanded="true" />
+                <element signature="e#7567#7573#0" expanded="true" />
+                <element signature="e#7573#7579#0" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#a#3;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="后台管理系统旅游线路添加.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/后台管理系统旅游线路添加.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4941">
+              <caret line="183" column="9" lean-forward="false" selection-start-line="183" selection-start-column="9" selection-end-line="183" selection-end-column="9" />
+              <folding>
+                <element signature="e#5776#5782#0" expanded="true" />
+                <element signature="e#5782#5788#0" expanded="true" />
+                <element signature="e#5788#5794#0" expanded="true" />
+                <element signature="e#5794#5800#0" expanded="true" />
+                <element signature="e#5801#5807#0" expanded="true" />
+                <element signature="e#5807#5813#0" expanded="true" />
+                <element signature="e#5813#5819#0" expanded="true" />
+                <element signature="e#5819#5825#0" expanded="true" />
+                <element signature="e#5838#5844#0" expanded="true" />
+                <element signature="e#5844#5850#0" expanded="true" />
+                <element signature="e#5850#5856#0" expanded="true" />
+                <element signature="e#5856#5862#0" expanded="true" />
+                <element signature="e#5862#5868#0" expanded="true" />
+                <element signature="e#5868#5874#0" expanded="true" />
+                <element signature="e#5874#5880#0" expanded="true" />
+                <element signature="e#5880#5886#0" expanded="true" />
+                <element signature="e#5899#5905#0" expanded="true" />
+                <element signature="e#5905#5911#0" expanded="true" />
+                <element signature="e#5911#5917#0" expanded="true" />
+                <element signature="e#5917#5923#0" expanded="true" />
+                <element signature="e#5923#5929#0" expanded="true" />
+                <element signature="e#5929#5935#0" expanded="true" />
+                <element signature="e#5935#5941#0" expanded="true" />
+                <element signature="e#5941#5947#0" expanded="true" />
+                <element signature="e#6571#6577#0" expanded="true" />
+                <element signature="e#6577#6583#0" expanded="true" />
+                <element signature="e#6583#6589#0" expanded="true" />
+                <element signature="e#6589#6595#0" expanded="true" />
+                <element signature="e#6596#6602#0" expanded="true" />
+                <element signature="e#6602#6608#0" expanded="true" />
+                <element signature="e#6608#6614#0" expanded="true" />
+                <element signature="e#6614#6620#0" expanded="true" />
+                <element signature="e#6633#6639#0" expanded="true" />
+                <element signature="e#6639#6645#0" expanded="true" />
+                <element signature="e#6645#6651#0" expanded="true" />
+                <element signature="e#6651#6657#0" expanded="true" />
+                <element signature="e#6657#6663#0" expanded="true" />
+                <element signature="e#6663#6669#0" expanded="true" />
+                <element signature="e#6669#6675#0" expanded="true" />
+                <element signature="e#6675#6681#0" expanded="true" />
+                <element signature="e#6694#6700#0" expanded="true" />
+                <element signature="e#6700#6706#0" expanded="true" />
+                <element signature="e#6706#6712#0" expanded="true" />
+                <element signature="e#6712#6718#0" expanded="true" />
+                <element signature="e#6718#6724#0" expanded="true" />
+                <element signature="e#6724#6730#0" expanded="true" />
+                <element signature="e#6730#6736#0" expanded="true" />
+                <element signature="e#6736#6742#0" expanded="true" />
+                <element signature="e#7095#7101#0" expanded="true" />
+                <element signature="e#7101#7107#0" expanded="true" />
+                <element signature="e#7107#7113#0" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#10;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#10;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#1;n#div#10;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="后台管理系统线路修改.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/后台管理系统线路修改.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="319" column="66" lean-forward="false" selection-start-line="319" selection-start-column="66" selection-end-line="319" selection-end-column="66" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#5925#5931#0" expanded="true" />
+                <element signature="e#5931#5937#0" expanded="true" />
+                <element signature="e#5937#5943#0" expanded="true" />
+                <element signature="e#5943#5949#0" expanded="true" />
+                <element signature="e#5950#5956#0" expanded="true" />
+                <element signature="e#5956#5962#0" expanded="true" />
+                <element signature="e#5962#5968#0" expanded="true" />
+                <element signature="e#5968#5974#0" expanded="true" />
+                <element signature="e#5987#5993#0" expanded="true" />
+                <element signature="e#5993#5999#0" expanded="true" />
+                <element signature="e#5999#6005#0" expanded="true" />
+                <element signature="e#6005#6011#0" expanded="true" />
+                <element signature="e#6011#6017#0" expanded="true" />
+                <element signature="e#6017#6023#0" expanded="true" />
+                <element signature="e#6023#6029#0" expanded="true" />
+                <element signature="e#6029#6035#0" expanded="true" />
+                <element signature="e#6048#6054#0" expanded="true" />
+                <element signature="e#6054#6060#0" expanded="true" />
+                <element signature="e#6060#6066#0" expanded="true" />
+                <element signature="e#6066#6072#0" expanded="true" />
+                <element signature="e#6072#6078#0" expanded="true" />
+                <element signature="e#6078#6084#0" expanded="true" />
+                <element signature="e#6084#6090#0" expanded="true" />
+                <element signature="e#6090#6096#0" expanded="true" />
+                <element signature="e#6701#6707#0" expanded="true" />
+                <element signature="e#6707#6713#0" expanded="true" />
+                <element signature="e#6713#6719#0" expanded="true" />
+                <element signature="e#6719#6725#0" expanded="true" />
+                <element signature="e#6726#6732#0" expanded="true" />
+                <element signature="e#6732#6738#0" expanded="true" />
+                <element signature="e#6738#6744#0" expanded="true" />
+                <element signature="e#6744#6750#0" expanded="true" />
+                <element signature="e#6763#6769#0" expanded="true" />
+                <element signature="e#6769#6775#0" expanded="true" />
+                <element signature="e#6775#6781#0" expanded="true" />
+                <element signature="e#6781#6787#0" expanded="true" />
+                <element signature="e#6787#6793#0" expanded="true" />
+                <element signature="e#6793#6799#0" expanded="true" />
+                <element signature="e#6799#6805#0" expanded="true" />
+                <element signature="e#6805#6811#0" expanded="true" />
+                <element signature="e#6824#6830#0" expanded="true" />
+                <element signature="e#6830#6836#0" expanded="true" />
+                <element signature="e#6836#6842#0" expanded="true" />
+                <element signature="e#6842#6848#0" expanded="true" />
+                <element signature="e#6848#6854#0" expanded="true" />
+                <element signature="e#6854#6860#0" expanded="true" />
+                <element signature="e#6860#6866#0" expanded="true" />
+                <element signature="e#6866#6872#0" expanded="true" />
+                <element signature="e#7171#7177#0" expanded="true" />
+                <element signature="e#7177#7183#0" expanded="true" />
+                <element signature="e#7183#7189#0" expanded="true" />
+                <element signature="n#style#0;n#textarea#0;n#div#0;n#div#4;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#5;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#label#0;n#div#1;n#div#0;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#label#0;n#div#1;n#div#1;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#2;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#2;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#2;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#label#0;n#div#1;n#div#2;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#3;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#3;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#3;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#label#0;n#div#1;n#div#3;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#7;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#div#7;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="后台管理系统线路类型添加.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/后台管理系统线路类型添加.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5481">
+              <caret line="203" column="39" lean-forward="false" selection-start-line="203" selection-start-column="39" selection-end-line="203" selection-end-column="39" />
+              <folding>
+                <element signature="n#style#0;n#div#2;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="后台管理系统线路类型查看.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/后台管理系统线路类型查看.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3699">
+              <caret line="137" column="0" lean-forward="false" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#thead#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#a#0;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#6274#6280#0" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#a#1;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#6406#6412#0" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#a#2;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#6531#6537#0" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#a#3;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="下一页跳转.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/下一页跳转.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="234" column="116" lean-forward="false" selection-start-line="234" selection-start-column="116" selection-end-line="234" selection-end-column="116" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#thead#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#a#0;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#6839#6845#0" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#a#1;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#6971#6977#0" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#a#2;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#7084#7090#0" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#a#3;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="线路下一页跳转.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/线路下一页跳转.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6777">
+              <caret line="251" column="133" lean-forward="false" selection-start-line="251" selection-start-column="43" selection-end-line="251" selection-end-column="133" />
+              <folding>
+                <element signature="e#5270#5276#0" expanded="true" />
+                <element signature="e#5276#5282#0" expanded="true" />
+                <element signature="e#5282#5288#0" expanded="true" />
+                <element signature="e#5690#5696#0" expanded="true" />
+                <element signature="e#5696#5702#0" expanded="true" />
+                <element signature="e#5702#5708#0" expanded="true" />
+                <element signature="e#6109#6115#0" expanded="true" />
+                <element signature="e#6115#6121#0" expanded="true" />
+                <element signature="e#6121#6127#0" expanded="true" />
+                <element signature="e#6526#6532#0" expanded="true" />
+                <element signature="e#6532#6538#0" expanded="true" />
+                <element signature="e#6538#6544#0" expanded="true" />
+                <element signature="e#6948#6954#0" expanded="true" />
+                <element signature="e#6954#6960#0" expanded="true" />
+                <element signature="e#6960#6966#0" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#a#0;n#td#0;n#tr#4;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#7261#7267#0" expanded="true" />
+                <element signature="e#7267#7273#0" expanded="true" />
+                <element signature="e#7273#7279#0" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#a#1;n#td#0;n#tr#4;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#7395#7401#0" expanded="true" />
+                <element signature="e#7401#7407#0" expanded="true" />
+                <element signature="e#7407#7413#0" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#a#2;n#td#0;n#tr#4;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#7524#7530#0" expanded="true" />
+                <element signature="e#7530#7536#0" expanded="true" />
+                <element signature="e#7536#7542#0" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#a#3;n#td#0;n#tr#4;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="后台管理系统线路类型修改.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/后台管理系统线路类型修改.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="383">
+              <caret line="197" column="18" lean-forward="true" selection-start-line="197" selection-start-column="18" selection-end-line="197" selection-end-column="18" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#1;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="管理员登录.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/管理员登录.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="88" column="32" lean-forward="false" selection-start-line="88" selection-start-column="32" selection-end-line="88" selection-end-column="32" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#form#0;n#fieldset#0;n#div#0;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#2073#2079#0" expanded="true" />
+                <element signature="e#2079#2085#0" expanded="true" />
+                <element signature="e#2085#2091#0" expanded="true" />
+                <element signature="e#2091#2097#0" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#a#0;n#form#0;n#fieldset#0;n#div#0;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#2202#2208#0" expanded="true" />
+                <element signature="e#2208#2214#0" expanded="true" />
+                <element signature="e#2214#2220#0" expanded="true" />
+                <element signature="e#2220#2226#0" expanded="true" />
+                <element signature="e#2226#2232#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/后台管理系统旅游线路查看.html" />
+        <option value="$PROJECT_DIR$/下一页跳转.html" />
+        <option value="$PROJECT_DIR$/后台管理系统线路类型查看.html" />
+        <option value="$PROJECT_DIR$/后台管理系统线路类型添加.html" />
+        <option value="$PROJECT_DIR$/线路下一页跳转.html" />
+        <option value="$PROJECT_DIR$/后台管理系统旅游线路添加.html" />
+        <option value="$PROJECT_DIR$/管理员登录.html" />
+        <option value="$PROJECT_DIR$/后台管理系统线路类型修改.html" />
+        <option value="$PROJECT_DIR$/后台管理系统线路修改.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="620" />
+    <option name="y" value="66" />
+    <option name="width" value="1219" />
+    <option name="height" value="1015" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="manager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="manager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manager" type="462c0819:PsiDirectoryNode" />
+              <item name="Images" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bb4226b5-d1b5-4a64-b8ed-1d36b8c5e0c7" name="Default" comment="" />
+      <created>1574079572447</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574079572447</updated>
+      <workItem from="1574079573912" duration="53000" />
+      <workItem from="1574079680597" duration="1643000" />
+      <workItem from="1574081653271" duration="644000" />
+      <workItem from="1574089049288" duration="1374000" />
+      <workItem from="1574122176729" duration="1775000" />
+      <workItem from="1574123992668" duration="1427000" />
+      <workItem from="1574125815166" duration="1785000" />
+      <workItem from="1574127635853" duration="40000" />
+      <workItem from="1574160004278" duration="1745000" />
+      <workItem from="1574161780325" duration="1783000" />
+      <workItem from="1574163590577" duration="1837000" />
+      <workItem from="1574165483845" duration="1782000" />
+      <workItem from="1574167300929" duration="158000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="16046000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/后台管理系统线路类型修改.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3915">
+          <caret line="145" column="89" lean-forward="false" selection-start-line="145" selection-start-column="16" selection-end-line="145" selection-end-column="89" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/管理员登录.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2295">
+          <caret line="85" column="38" lean-forward="false" selection-start-line="85" selection-start-column="38" selection-end-line="85" selection-end-column="38" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#form#0;n#fieldset#0;n#div#0;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#2073#2079#0" expanded="true" />
+            <element signature="e#2079#2085#0" expanded="true" />
+            <element signature="e#2085#2091#0" expanded="true" />
+            <element signature="e#2091#2097#0" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#a#0;n#form#0;n#fieldset#0;n#div#0;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#2202#2208#0" expanded="true" />
+            <element signature="e#2208#2214#0" expanded="true" />
+            <element signature="e#2214#2220#0" expanded="true" />
+            <element signature="e#2220#2226#0" expanded="true" />
+            <element signature="e#2226#2232#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台管理系统旅游线路查看.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#5322#5328#0" expanded="true" />
+            <element signature="e#5328#5334#0" expanded="true" />
+            <element signature="e#5334#5340#0" expanded="true" />
+            <element signature="e#5738#5744#0" expanded="true" />
+            <element signature="e#5744#5750#0" expanded="true" />
+            <element signature="e#5750#5756#0" expanded="true" />
+            <element signature="e#6155#6161#0" expanded="true" />
+            <element signature="e#6161#6167#0" expanded="true" />
+            <element signature="e#6167#6173#0" expanded="true" />
+            <element signature="e#6571#6577#0" expanded="true" />
+            <element signature="e#6577#6583#0" expanded="true" />
+            <element signature="e#6583#6589#0" expanded="true" />
+            <element signature="e#6985#6991#0" expanded="true" />
+            <element signature="e#6991#6997#0" expanded="true" />
+            <element signature="e#6997#7003#0" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#a#0;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#7298#7304#0" expanded="true" />
+            <element signature="e#7304#7310#0" expanded="true" />
+            <element signature="e#7310#7316#0" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#a#1;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#7432#7438#0" expanded="true" />
+            <element signature="e#7438#7444#0" expanded="true" />
+            <element signature="e#7444#7450#0" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#a#2;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#7561#7567#0" expanded="true" />
+            <element signature="e#7567#7573#0" expanded="true" />
+            <element signature="e#7573#7579#0" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#a#3;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台管理系统旅游线路添加.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7722">
+          <caret line="286" column="18" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="343" selection-end-column="7" />
+          <folding>
+            <element signature="e#5776#5782#0" expanded="true" />
+            <element signature="e#5782#5788#0" expanded="true" />
+            <element signature="e#5788#5794#0" expanded="true" />
+            <element signature="e#5794#5800#0" expanded="true" />
+            <element signature="e#5801#5807#0" expanded="true" />
+            <element signature="e#5807#5813#0" expanded="true" />
+            <element signature="e#5813#5819#0" expanded="true" />
+            <element signature="e#5819#5825#0" expanded="true" />
+            <element signature="e#5838#5844#0" expanded="true" />
+            <element signature="e#5844#5850#0" expanded="true" />
+            <element signature="e#5850#5856#0" expanded="true" />
+            <element signature="e#5856#5862#0" expanded="true" />
+            <element signature="e#5862#5868#0" expanded="true" />
+            <element signature="e#5868#5874#0" expanded="true" />
+            <element signature="e#5874#5880#0" expanded="true" />
+            <element signature="e#5880#5886#0" expanded="true" />
+            <element signature="e#5899#5905#0" expanded="true" />
+            <element signature="e#5905#5911#0" expanded="true" />
+            <element signature="e#5911#5917#0" expanded="true" />
+            <element signature="e#5917#5923#0" expanded="true" />
+            <element signature="e#5923#5929#0" expanded="true" />
+            <element signature="e#5929#5935#0" expanded="true" />
+            <element signature="e#5935#5941#0" expanded="true" />
+            <element signature="e#5941#5947#0" expanded="true" />
+            <element signature="e#6571#6577#0" expanded="true" />
+            <element signature="e#6577#6583#0" expanded="true" />
+            <element signature="e#6583#6589#0" expanded="true" />
+            <element signature="e#6589#6595#0" expanded="true" />
+            <element signature="e#6596#6602#0" expanded="true" />
+            <element signature="e#6602#6608#0" expanded="true" />
+            <element signature="e#6608#6614#0" expanded="true" />
+            <element signature="e#6614#6620#0" expanded="true" />
+            <element signature="e#6633#6639#0" expanded="true" />
+            <element signature="e#6639#6645#0" expanded="true" />
+            <element signature="e#6645#6651#0" expanded="true" />
+            <element signature="e#6651#6657#0" expanded="true" />
+            <element signature="e#6657#6663#0" expanded="true" />
+            <element signature="e#6663#6669#0" expanded="true" />
+            <element signature="e#6669#6675#0" expanded="true" />
+            <element signature="e#6675#6681#0" expanded="true" />
+            <element signature="e#6694#6700#0" expanded="true" />
+            <element signature="e#6700#6706#0" expanded="true" />
+            <element signature="e#6706#6712#0" expanded="true" />
+            <element signature="e#6712#6718#0" expanded="true" />
+            <element signature="e#6718#6724#0" expanded="true" />
+            <element signature="e#6724#6730#0" expanded="true" />
+            <element signature="e#6730#6736#0" expanded="true" />
+            <element signature="e#6736#6742#0" expanded="true" />
+            <element signature="e#7095#7101#0" expanded="true" />
+            <element signature="e#7101#7107#0" expanded="true" />
+            <element signature="e#7107#7113#0" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#10;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#10;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#1;n#div#10;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台管理系统线路修改.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8802">
+          <caret line="326" column="84" lean-forward="false" selection-start-line="326" selection-start-column="84" selection-end-line="326" selection-end-column="84" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#5925#5931#0" expanded="true" />
+            <element signature="e#5931#5937#0" expanded="true" />
+            <element signature="e#5937#5943#0" expanded="true" />
+            <element signature="e#5943#5949#0" expanded="true" />
+            <element signature="e#5950#5956#0" expanded="true" />
+            <element signature="e#5956#5962#0" expanded="true" />
+            <element signature="e#5962#5968#0" expanded="true" />
+            <element signature="e#5968#5974#0" expanded="true" />
+            <element signature="e#5987#5993#0" expanded="true" />
+            <element signature="e#5993#5999#0" expanded="true" />
+            <element signature="e#5999#6005#0" expanded="true" />
+            <element signature="e#6005#6011#0" expanded="true" />
+            <element signature="e#6011#6017#0" expanded="true" />
+            <element signature="e#6017#6023#0" expanded="true" />
+            <element signature="e#6023#6029#0" expanded="true" />
+            <element signature="e#6029#6035#0" expanded="true" />
+            <element signature="e#6048#6054#0" expanded="true" />
+            <element signature="e#6054#6060#0" expanded="true" />
+            <element signature="e#6060#6066#0" expanded="true" />
+            <element signature="e#6066#6072#0" expanded="true" />
+            <element signature="e#6072#6078#0" expanded="true" />
+            <element signature="e#6078#6084#0" expanded="true" />
+            <element signature="e#6084#6090#0" expanded="true" />
+            <element signature="e#6090#6096#0" expanded="true" />
+            <element signature="e#6701#6707#0" expanded="true" />
+            <element signature="e#6707#6713#0" expanded="true" />
+            <element signature="e#6713#6719#0" expanded="true" />
+            <element signature="e#6719#6725#0" expanded="true" />
+            <element signature="e#6726#6732#0" expanded="true" />
+            <element signature="e#6732#6738#0" expanded="true" />
+            <element signature="e#6738#6744#0" expanded="true" />
+            <element signature="e#6744#6750#0" expanded="true" />
+            <element signature="e#6763#6769#0" expanded="true" />
+            <element signature="e#6769#6775#0" expanded="true" />
+            <element signature="e#6775#6781#0" expanded="true" />
+            <element signature="e#6781#6787#0" expanded="true" />
+            <element signature="e#6787#6793#0" expanded="true" />
+            <element signature="e#6793#6799#0" expanded="true" />
+            <element signature="e#6799#6805#0" expanded="true" />
+            <element signature="e#6805#6811#0" expanded="true" />
+            <element signature="e#6824#6830#0" expanded="true" />
+            <element signature="e#6830#6836#0" expanded="true" />
+            <element signature="e#6836#6842#0" expanded="true" />
+            <element signature="e#6842#6848#0" expanded="true" />
+            <element signature="e#6848#6854#0" expanded="true" />
+            <element signature="e#6854#6860#0" expanded="true" />
+            <element signature="e#6860#6866#0" expanded="true" />
+            <element signature="e#6866#6872#0" expanded="true" />
+            <element signature="e#7171#7177#0" expanded="true" />
+            <element signature="e#7177#7183#0" expanded="true" />
+            <element signature="e#7183#7189#0" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#div#0;n#div#4;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#5;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#div#1;n#div#0;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#div#1;n#div#1;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#2;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#div#1;n#div#2;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#3;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#3;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#div#1;n#div#3;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#7;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#7;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台管理系统线路类型添加.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台管理系统线路类型查看.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5454">
+          <caret line="202" column="91" lean-forward="true" selection-start-line="201" selection-start-column="25" selection-end-line="202" selection-end-column="91" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#thead#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#a#0;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#6274#6280#0" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#a#1;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#6406#6412#0" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#a#2;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#6531#6537#0" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#a#3;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台管理系统线路类型修改.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3915">
+          <caret line="145" column="89" lean-forward="false" selection-start-line="145" selection-start-column="16" selection-end-line="145" selection-end-column="89" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/管理员登录.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2295">
+          <caret line="85" column="38" lean-forward="false" selection-start-line="85" selection-start-column="38" selection-end-line="85" selection-end-column="38" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#form#0;n#fieldset#0;n#div#0;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#2073#2079#0" expanded="true" />
+            <element signature="e#2079#2085#0" expanded="true" />
+            <element signature="e#2085#2091#0" expanded="true" />
+            <element signature="e#2091#2097#0" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#a#0;n#form#0;n#fieldset#0;n#div#0;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#2202#2208#0" expanded="true" />
+            <element signature="e#2208#2214#0" expanded="true" />
+            <element signature="e#2214#2220#0" expanded="true" />
+            <element signature="e#2220#2226#0" expanded="true" />
+            <element signature="e#2226#2232#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台管理系统旅游线路查看.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="26" lean-forward="false" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+          <folding>
+            <element signature="e#5322#5328#0" expanded="true" />
+            <element signature="e#5328#5334#0" expanded="true" />
+            <element signature="e#5334#5340#0" expanded="true" />
+            <element signature="e#5738#5744#0" expanded="true" />
+            <element signature="e#5744#5750#0" expanded="true" />
+            <element signature="e#5750#5756#0" expanded="true" />
+            <element signature="e#6155#6161#0" expanded="true" />
+            <element signature="e#6161#6167#0" expanded="true" />
+            <element signature="e#6167#6173#0" expanded="true" />
+            <element signature="e#6571#6577#0" expanded="true" />
+            <element signature="e#6577#6583#0" expanded="true" />
+            <element signature="e#6583#6589#0" expanded="true" />
+            <element signature="e#6985#6991#0" expanded="true" />
+            <element signature="e#6991#6997#0" expanded="true" />
+            <element signature="e#6997#7003#0" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#a#0;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#7298#7304#0" expanded="true" />
+            <element signature="e#7304#7310#0" expanded="true" />
+            <element signature="e#7310#7316#0" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#a#1;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#7432#7438#0" expanded="true" />
+            <element signature="e#7438#7444#0" expanded="true" />
+            <element signature="e#7444#7450#0" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#a#2;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#7561#7567#0" expanded="true" />
+            <element signature="e#7567#7573#0" expanded="true" />
+            <element signature="e#7573#7579#0" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#a#3;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台管理系统旅游线路添加.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7722">
+          <caret line="286" column="18" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="343" selection-end-column="7" />
+          <folding>
+            <element signature="e#5776#5782#0" expanded="true" />
+            <element signature="e#5782#5788#0" expanded="true" />
+            <element signature="e#5788#5794#0" expanded="true" />
+            <element signature="e#5794#5800#0" expanded="true" />
+            <element signature="e#5801#5807#0" expanded="true" />
+            <element signature="e#5807#5813#0" expanded="true" />
+            <element signature="e#5813#5819#0" expanded="true" />
+            <element signature="e#5819#5825#0" expanded="true" />
+            <element signature="e#5838#5844#0" expanded="true" />
+            <element signature="e#5844#5850#0" expanded="true" />
+            <element signature="e#5850#5856#0" expanded="true" />
+            <element signature="e#5856#5862#0" expanded="true" />
+            <element signature="e#5862#5868#0" expanded="true" />
+            <element signature="e#5868#5874#0" expanded="true" />
+            <element signature="e#5874#5880#0" expanded="true" />
+            <element signature="e#5880#5886#0" expanded="true" />
+            <element signature="e#5899#5905#0" expanded="true" />
+            <element signature="e#5905#5911#0" expanded="true" />
+            <element signature="e#5911#5917#0" expanded="true" />
+            <element signature="e#5917#5923#0" expanded="true" />
+            <element signature="e#5923#5929#0" expanded="true" />
+            <element signature="e#5929#5935#0" expanded="true" />
+            <element signature="e#5935#5941#0" expanded="true" />
+            <element signature="e#5941#5947#0" expanded="true" />
+            <element signature="e#6571#6577#0" expanded="true" />
+            <element signature="e#6577#6583#0" expanded="true" />
+            <element signature="e#6583#6589#0" expanded="true" />
+            <element signature="e#6589#6595#0" expanded="true" />
+            <element signature="e#6596#6602#0" expanded="true" />
+            <element signature="e#6602#6608#0" expanded="true" />
+            <element signature="e#6608#6614#0" expanded="true" />
+            <element signature="e#6614#6620#0" expanded="true" />
+            <element signature="e#6633#6639#0" expanded="true" />
+            <element signature="e#6639#6645#0" expanded="true" />
+            <element signature="e#6645#6651#0" expanded="true" />
+            <element signature="e#6651#6657#0" expanded="true" />
+            <element signature="e#6657#6663#0" expanded="true" />
+            <element signature="e#6663#6669#0" expanded="true" />
+            <element signature="e#6669#6675#0" expanded="true" />
+            <element signature="e#6675#6681#0" expanded="true" />
+            <element signature="e#6694#6700#0" expanded="true" />
+            <element signature="e#6700#6706#0" expanded="true" />
+            <element signature="e#6706#6712#0" expanded="true" />
+            <element signature="e#6712#6718#0" expanded="true" />
+            <element signature="e#6718#6724#0" expanded="true" />
+            <element signature="e#6724#6730#0" expanded="true" />
+            <element signature="e#6730#6736#0" expanded="true" />
+            <element signature="e#6736#6742#0" expanded="true" />
+            <element signature="e#7095#7101#0" expanded="true" />
+            <element signature="e#7101#7107#0" expanded="true" />
+            <element signature="e#7107#7113#0" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#10;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#10;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#1;n#div#10;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台管理系统线路类型添加.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台管理系统线路类型修改.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3915">
+          <caret line="145" column="89" lean-forward="false" selection-start-line="145" selection-start-column="16" selection-end-line="145" selection-end-column="89" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台管理系统线路类型查看.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4644">
+          <caret line="172" column="50" lean-forward="false" selection-start-line="172" selection-start-column="50" selection-end-line="172" selection-end-column="50" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#thead#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#a#0;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#6274#6280#0" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#a#1;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#6406#6412#0" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#a#2;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#6531#6537#0" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#a#3;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/管理员登录.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="30" column="50" lean-forward="false" selection-start-line="29" selection-start-column="8" selection-end-line="30" selection-end-column="50" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#form#0;n#fieldset#0;n#div#0;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#2073#2079#0" expanded="true" />
+            <element signature="e#2079#2085#0" expanded="true" />
+            <element signature="e#2085#2091#0" expanded="true" />
+            <element signature="e#2091#2097#0" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#a#0;n#form#0;n#fieldset#0;n#div#0;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#2202#2208#0" expanded="true" />
+            <element signature="e#2208#2214#0" expanded="true" />
+            <element signature="e#2214#2220#0" expanded="true" />
+            <element signature="e#2220#2226#0" expanded="true" />
+            <element signature="e#2226#2232#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台管理系统线路修改.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7776">
+          <caret line="288" column="36" lean-forward="false" selection-start-line="288" selection-start-column="32" selection-end-line="288" selection-end-column="36" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#5925#5931#0" expanded="true" />
+            <element signature="e#5931#5937#0" expanded="true" />
+            <element signature="e#5937#5943#0" expanded="true" />
+            <element signature="e#5943#5949#0" expanded="true" />
+            <element signature="e#5950#5956#0" expanded="true" />
+            <element signature="e#5956#5962#0" expanded="true" />
+            <element signature="e#5962#5968#0" expanded="true" />
+            <element signature="e#5968#5974#0" expanded="true" />
+            <element signature="e#5987#5993#0" expanded="true" />
+            <element signature="e#5993#5999#0" expanded="true" />
+            <element signature="e#5999#6005#0" expanded="true" />
+            <element signature="e#6005#6011#0" expanded="true" />
+            <element signature="e#6011#6017#0" expanded="true" />
+            <element signature="e#6017#6023#0" expanded="true" />
+            <element signature="e#6023#6029#0" expanded="true" />
+            <element signature="e#6029#6035#0" expanded="true" />
+            <element signature="e#6048#6054#0" expanded="true" />
+            <element signature="e#6054#6060#0" expanded="true" />
+            <element signature="e#6060#6066#0" expanded="true" />
+            <element signature="e#6066#6072#0" expanded="true" />
+            <element signature="e#6072#6078#0" expanded="true" />
+            <element signature="e#6078#6084#0" expanded="true" />
+            <element signature="e#6084#6090#0" expanded="true" />
+            <element signature="e#6090#6096#0" expanded="true" />
+            <element signature="e#6701#6707#0" expanded="true" />
+            <element signature="e#6707#6713#0" expanded="true" />
+            <element signature="e#6713#6719#0" expanded="true" />
+            <element signature="e#6719#6725#0" expanded="true" />
+            <element signature="e#6726#6732#0" expanded="true" />
+            <element signature="e#6732#6738#0" expanded="true" />
+            <element signature="e#6738#6744#0" expanded="true" />
+            <element signature="e#6744#6750#0" expanded="true" />
+            <element signature="e#6763#6769#0" expanded="true" />
+            <element signature="e#6769#6775#0" expanded="true" />
+            <element signature="e#6775#6781#0" expanded="true" />
+            <element signature="e#6781#6787#0" expanded="true" />
+            <element signature="e#6787#6793#0" expanded="true" />
+            <element signature="e#6793#6799#0" expanded="true" />
+            <element signature="e#6799#6805#0" expanded="true" />
+            <element signature="e#6805#6811#0" expanded="true" />
+            <element signature="e#6824#6830#0" expanded="true" />
+            <element signature="e#6830#6836#0" expanded="true" />
+            <element signature="e#6836#6842#0" expanded="true" />
+            <element signature="e#6842#6848#0" expanded="true" />
+            <element signature="e#6848#6854#0" expanded="true" />
+            <element signature="e#6854#6860#0" expanded="true" />
+            <element signature="e#6860#6866#0" expanded="true" />
+            <element signature="e#6866#6872#0" expanded="true" />
+            <element signature="e#7171#7177#0" expanded="true" />
+            <element signature="e#7177#7183#0" expanded="true" />
+            <element signature="e#7183#7189#0" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#div#0;n#div#4;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#5;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#div#1;n#div#0;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#div#1;n#div#1;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#2;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#div#1;n#div#2;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#3;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#3;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#div#1;n#div#3;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#7;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#7;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台管理系统旅游线路查看.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="26" lean-forward="false" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+          <folding>
+            <element signature="e#5322#5328#0" expanded="true" />
+            <element signature="e#5328#5334#0" expanded="true" />
+            <element signature="e#5334#5340#0" expanded="true" />
+            <element signature="e#5738#5744#0" expanded="true" />
+            <element signature="e#5744#5750#0" expanded="true" />
+            <element signature="e#5750#5756#0" expanded="true" />
+            <element signature="e#6155#6161#0" expanded="true" />
+            <element signature="e#6161#6167#0" expanded="true" />
+            <element signature="e#6167#6173#0" expanded="true" />
+            <element signature="e#6571#6577#0" expanded="true" />
+            <element signature="e#6577#6583#0" expanded="true" />
+            <element signature="e#6583#6589#0" expanded="true" />
+            <element signature="e#6985#6991#0" expanded="true" />
+            <element signature="e#6991#6997#0" expanded="true" />
+            <element signature="e#6997#7003#0" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#a#0;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#7298#7304#0" expanded="true" />
+            <element signature="e#7304#7310#0" expanded="true" />
+            <element signature="e#7310#7316#0" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#a#1;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#7432#7438#0" expanded="true" />
+            <element signature="e#7438#7444#0" expanded="true" />
+            <element signature="e#7444#7450#0" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#a#2;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#7561#7567#0" expanded="true" />
+            <element signature="e#7567#7573#0" expanded="true" />
+            <element signature="e#7573#7579#0" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#a#3;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台管理系统旅游线路添加.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7722">
+          <caret line="286" column="18" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="343" selection-end-column="7" />
+          <folding>
+            <element signature="e#5776#5782#0" expanded="true" />
+            <element signature="e#5782#5788#0" expanded="true" />
+            <element signature="e#5788#5794#0" expanded="true" />
+            <element signature="e#5794#5800#0" expanded="true" />
+            <element signature="e#5801#5807#0" expanded="true" />
+            <element signature="e#5807#5813#0" expanded="true" />
+            <element signature="e#5813#5819#0" expanded="true" />
+            <element signature="e#5819#5825#0" expanded="true" />
+            <element signature="e#5838#5844#0" expanded="true" />
+            <element signature="e#5844#5850#0" expanded="true" />
+            <element signature="e#5850#5856#0" expanded="true" />
+            <element signature="e#5856#5862#0" expanded="true" />
+            <element signature="e#5862#5868#0" expanded="true" />
+            <element signature="e#5868#5874#0" expanded="true" />
+            <element signature="e#5874#5880#0" expanded="true" />
+            <element signature="e#5880#5886#0" expanded="true" />
+            <element signature="e#5899#5905#0" expanded="true" />
+            <element signature="e#5905#5911#0" expanded="true" />
+            <element signature="e#5911#5917#0" expanded="true" />
+            <element signature="e#5917#5923#0" expanded="true" />
+            <element signature="e#5923#5929#0" expanded="true" />
+            <element signature="e#5929#5935#0" expanded="true" />
+            <element signature="e#5935#5941#0" expanded="true" />
+            <element signature="e#5941#5947#0" expanded="true" />
+            <element signature="e#6571#6577#0" expanded="true" />
+            <element signature="e#6577#6583#0" expanded="true" />
+            <element signature="e#6583#6589#0" expanded="true" />
+            <element signature="e#6589#6595#0" expanded="true" />
+            <element signature="e#6596#6602#0" expanded="true" />
+            <element signature="e#6602#6608#0" expanded="true" />
+            <element signature="e#6608#6614#0" expanded="true" />
+            <element signature="e#6614#6620#0" expanded="true" />
+            <element signature="e#6633#6639#0" expanded="true" />
+            <element signature="e#6639#6645#0" expanded="true" />
+            <element signature="e#6645#6651#0" expanded="true" />
+            <element signature="e#6651#6657#0" expanded="true" />
+            <element signature="e#6657#6663#0" expanded="true" />
+            <element signature="e#6663#6669#0" expanded="true" />
+            <element signature="e#6669#6675#0" expanded="true" />
+            <element signature="e#6675#6681#0" expanded="true" />
+            <element signature="e#6694#6700#0" expanded="true" />
+            <element signature="e#6700#6706#0" expanded="true" />
+            <element signature="e#6706#6712#0" expanded="true" />
+            <element signature="e#6712#6718#0" expanded="true" />
+            <element signature="e#6718#6724#0" expanded="true" />
+            <element signature="e#6724#6730#0" expanded="true" />
+            <element signature="e#6730#6736#0" expanded="true" />
+            <element signature="e#6736#6742#0" expanded="true" />
+            <element signature="e#7095#7101#0" expanded="true" />
+            <element signature="e#7101#7107#0" expanded="true" />
+            <element signature="e#7107#7113#0" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#10;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#10;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#1;n#div#10;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台管理系统线路类型添加.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台管理系统线路类型查看.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4644">
+          <caret line="172" column="50" lean-forward="false" selection-start-line="172" selection-start-column="50" selection-end-line="172" selection-end-column="50" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#thead#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#a#0;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#6274#6280#0" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#a#1;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#6406#6412#0" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#a#2;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#6531#6537#0" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#a#3;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台管理系统线路类型修改.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3915">
+          <caret line="145" column="89" lean-forward="false" selection-start-line="145" selection-start-column="16" selection-end-line="145" selection-end-column="89" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/管理员登录.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="30" column="50" lean-forward="false" selection-start-line="29" selection-start-column="8" selection-end-line="30" selection-end-column="50" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#form#0;n#fieldset#0;n#div#0;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#2073#2079#0" expanded="true" />
+            <element signature="e#2079#2085#0" expanded="true" />
+            <element signature="e#2085#2091#0" expanded="true" />
+            <element signature="e#2091#2097#0" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#a#0;n#form#0;n#fieldset#0;n#div#0;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#2202#2208#0" expanded="true" />
+            <element signature="e#2208#2214#0" expanded="true" />
+            <element signature="e#2214#2220#0" expanded="true" />
+            <element signature="e#2220#2226#0" expanded="true" />
+            <element signature="e#2226#2232#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台管理系统线路修改.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7398">
+          <caret line="274" column="105" lean-forward="false" selection-start-line="274" selection-start-column="105" selection-end-line="274" selection-end-column="105" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#5925#5931#0" expanded="true" />
+            <element signature="e#5931#5937#0" expanded="true" />
+            <element signature="e#5937#5943#0" expanded="true" />
+            <element signature="e#5943#5949#0" expanded="true" />
+            <element signature="e#5950#5956#0" expanded="true" />
+            <element signature="e#5956#5962#0" expanded="true" />
+            <element signature="e#5962#5968#0" expanded="true" />
+            <element signature="e#5968#5974#0" expanded="true" />
+            <element signature="e#5987#5993#0" expanded="true" />
+            <element signature="e#5993#5999#0" expanded="true" />
+            <element signature="e#5999#6005#0" expanded="true" />
+            <element signature="e#6005#6011#0" expanded="true" />
+            <element signature="e#6011#6017#0" expanded="true" />
+            <element signature="e#6017#6023#0" expanded="true" />
+            <element signature="e#6023#6029#0" expanded="true" />
+            <element signature="e#6029#6035#0" expanded="true" />
+            <element signature="e#6048#6054#0" expanded="true" />
+            <element signature="e#6054#6060#0" expanded="true" />
+            <element signature="e#6060#6066#0" expanded="true" />
+            <element signature="e#6066#6072#0" expanded="true" />
+            <element signature="e#6072#6078#0" expanded="true" />
+            <element signature="e#6078#6084#0" expanded="true" />
+            <element signature="e#6084#6090#0" expanded="true" />
+            <element signature="e#6090#6096#0" expanded="true" />
+            <element signature="e#6701#6707#0" expanded="true" />
+            <element signature="e#6707#6713#0" expanded="true" />
+            <element signature="e#6713#6719#0" expanded="true" />
+            <element signature="e#6719#6725#0" expanded="true" />
+            <element signature="e#6726#6732#0" expanded="true" />
+            <element signature="e#6732#6738#0" expanded="true" />
+            <element signature="e#6738#6744#0" expanded="true" />
+            <element signature="e#6744#6750#0" expanded="true" />
+            <element signature="e#6763#6769#0" expanded="true" />
+            <element signature="e#6769#6775#0" expanded="true" />
+            <element signature="e#6775#6781#0" expanded="true" />
+            <element signature="e#6781#6787#0" expanded="true" />
+            <element signature="e#6787#6793#0" expanded="true" />
+            <element signature="e#6793#6799#0" expanded="true" />
+            <element signature="e#6799#6805#0" expanded="true" />
+            <element signature="e#6805#6811#0" expanded="true" />
+            <element signature="e#6824#6830#0" expanded="true" />
+            <element signature="e#6830#6836#0" expanded="true" />
+            <element signature="e#6836#6842#0" expanded="true" />
+            <element signature="e#6842#6848#0" expanded="true" />
+            <element signature="e#6848#6854#0" expanded="true" />
+            <element signature="e#6854#6860#0" expanded="true" />
+            <element signature="e#6860#6866#0" expanded="true" />
+            <element signature="e#6866#6872#0" expanded="true" />
+            <element signature="e#7171#7177#0" expanded="true" />
+            <element signature="e#7177#7183#0" expanded="true" />
+            <element signature="e#7183#7189#0" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#div#0;n#div#4;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#5;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#div#1;n#div#0;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#div#1;n#div#1;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#2;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#div#1;n#div#2;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#3;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#3;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#div#1;n#div#3;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#7;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#7;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台管理系统旅游线路查看.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="26" lean-forward="false" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+          <folding>
+            <element signature="e#5322#5328#0" expanded="true" />
+            <element signature="e#5328#5334#0" expanded="true" />
+            <element signature="e#5334#5340#0" expanded="true" />
+            <element signature="e#5738#5744#0" expanded="true" />
+            <element signature="e#5744#5750#0" expanded="true" />
+            <element signature="e#5750#5756#0" expanded="true" />
+            <element signature="e#6155#6161#0" expanded="true" />
+            <element signature="e#6161#6167#0" expanded="true" />
+            <element signature="e#6167#6173#0" expanded="true" />
+            <element signature="e#6571#6577#0" expanded="true" />
+            <element signature="e#6577#6583#0" expanded="true" />
+            <element signature="e#6583#6589#0" expanded="true" />
+            <element signature="e#6985#6991#0" expanded="true" />
+            <element signature="e#6991#6997#0" expanded="true" />
+            <element signature="e#6997#7003#0" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#a#0;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#7298#7304#0" expanded="true" />
+            <element signature="e#7304#7310#0" expanded="true" />
+            <element signature="e#7310#7316#0" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#a#1;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#7432#7438#0" expanded="true" />
+            <element signature="e#7438#7444#0" expanded="true" />
+            <element signature="e#7444#7450#0" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#a#2;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#7561#7567#0" expanded="true" />
+            <element signature="e#7567#7573#0" expanded="true" />
+            <element signature="e#7573#7579#0" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#a#3;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台管理系统线路类型添加.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台管理系统线路类型查看.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4644">
+          <caret line="172" column="50" lean-forward="false" selection-start-line="172" selection-start-column="50" selection-end-line="172" selection-end-column="50" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#thead#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#a#0;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#6274#6280#0" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#a#1;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#6406#6412#0" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#a#2;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#6531#6537#0" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#a#3;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台管理系统线路类型修改.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3915">
+          <caret line="145" column="89" lean-forward="false" selection-start-line="145" selection-start-column="16" selection-end-line="145" selection-end-column="89" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/管理员登录.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="30" column="50" lean-forward="true" selection-start-line="29" selection-start-column="8" selection-end-line="30" selection-end-column="50" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#form#0;n#fieldset#0;n#div#0;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#2073#2079#0" expanded="true" />
+            <element signature="e#2079#2085#0" expanded="true" />
+            <element signature="e#2085#2091#0" expanded="true" />
+            <element signature="e#2091#2097#0" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#a#0;n#form#0;n#fieldset#0;n#div#0;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#2202#2208#0" expanded="true" />
+            <element signature="e#2208#2214#0" expanded="true" />
+            <element signature="e#2214#2220#0" expanded="true" />
+            <element signature="e#2220#2226#0" expanded="true" />
+            <element signature="e#2226#2232#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台管理系统旅游线路添加.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9153">
+          <caret line="339" column="6" lean-forward="true" selection-start-line="339" selection-start-column="6" selection-end-line="339" selection-end-column="6" />
+          <folding>
+            <element signature="e#5776#5782#0" expanded="true" />
+            <element signature="e#5782#5788#0" expanded="true" />
+            <element signature="e#5788#5794#0" expanded="true" />
+            <element signature="e#5794#5800#0" expanded="true" />
+            <element signature="e#5801#5807#0" expanded="true" />
+            <element signature="e#5807#5813#0" expanded="true" />
+            <element signature="e#5813#5819#0" expanded="true" />
+            <element signature="e#5819#5825#0" expanded="true" />
+            <element signature="e#5838#5844#0" expanded="true" />
+            <element signature="e#5844#5850#0" expanded="true" />
+            <element signature="e#5850#5856#0" expanded="true" />
+            <element signature="e#5856#5862#0" expanded="true" />
+            <element signature="e#5862#5868#0" expanded="true" />
+            <element signature="e#5868#5874#0" expanded="true" />
+            <element signature="e#5874#5880#0" expanded="true" />
+            <element signature="e#5880#5886#0" expanded="true" />
+            <element signature="e#5899#5905#0" expanded="true" />
+            <element signature="e#5905#5911#0" expanded="true" />
+            <element signature="e#5911#5917#0" expanded="true" />
+            <element signature="e#5917#5923#0" expanded="true" />
+            <element signature="e#5923#5929#0" expanded="true" />
+            <element signature="e#5929#5935#0" expanded="true" />
+            <element signature="e#5935#5941#0" expanded="true" />
+            <element signature="e#5941#5947#0" expanded="true" />
+            <element signature="e#6571#6577#0" expanded="true" />
+            <element signature="e#6577#6583#0" expanded="true" />
+            <element signature="e#6583#6589#0" expanded="true" />
+            <element signature="e#6589#6595#0" expanded="true" />
+            <element signature="e#6596#6602#0" expanded="true" />
+            <element signature="e#6602#6608#0" expanded="true" />
+            <element signature="e#6608#6614#0" expanded="true" />
+            <element signature="e#6614#6620#0" expanded="true" />
+            <element signature="e#6633#6639#0" expanded="true" />
+            <element signature="e#6639#6645#0" expanded="true" />
+            <element signature="e#6645#6651#0" expanded="true" />
+            <element signature="e#6651#6657#0" expanded="true" />
+            <element signature="e#6657#6663#0" expanded="true" />
+            <element signature="e#6663#6669#0" expanded="true" />
+            <element signature="e#6669#6675#0" expanded="true" />
+            <element signature="e#6675#6681#0" expanded="true" />
+            <element signature="e#6694#6700#0" expanded="true" />
+            <element signature="e#6700#6706#0" expanded="true" />
+            <element signature="e#6706#6712#0" expanded="true" />
+            <element signature="e#6712#6718#0" expanded="true" />
+            <element signature="e#6718#6724#0" expanded="true" />
+            <element signature="e#6724#6730#0" expanded="true" />
+            <element signature="e#6730#6736#0" expanded="true" />
+            <element signature="e#6736#6742#0" expanded="true" />
+            <element signature="e#7095#7101#0" expanded="true" />
+            <element signature="e#7101#7107#0" expanded="true" />
+            <element signature="e#7107#7113#0" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#10;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#10;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#1;n#div#10;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台管理系统旅游线路查看.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="26" lean-forward="false" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+          <folding>
+            <element signature="e#5322#5328#0" expanded="true" />
+            <element signature="e#5328#5334#0" expanded="true" />
+            <element signature="e#5334#5340#0" expanded="true" />
+            <element signature="e#5738#5744#0" expanded="true" />
+            <element signature="e#5744#5750#0" expanded="true" />
+            <element signature="e#5750#5756#0" expanded="true" />
+            <element signature="e#6155#6161#0" expanded="true" />
+            <element signature="e#6161#6167#0" expanded="true" />
+            <element signature="e#6167#6173#0" expanded="true" />
+            <element signature="e#6571#6577#0" expanded="true" />
+            <element signature="e#6577#6583#0" expanded="true" />
+            <element signature="e#6583#6589#0" expanded="true" />
+            <element signature="e#6985#6991#0" expanded="true" />
+            <element signature="e#6991#6997#0" expanded="true" />
+            <element signature="e#6997#7003#0" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#a#0;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#7298#7304#0" expanded="true" />
+            <element signature="e#7304#7310#0" expanded="true" />
+            <element signature="e#7310#7316#0" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#a#1;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#7432#7438#0" expanded="true" />
+            <element signature="e#7438#7444#0" expanded="true" />
+            <element signature="e#7444#7450#0" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#a#2;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#7561#7567#0" expanded="true" />
+            <element signature="e#7567#7573#0" expanded="true" />
+            <element signature="e#7573#7579#0" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#a#3;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台管理系统线路类型添加.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台管理系统线路类型修改.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/管理员登录.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1917">
+          <caret line="71" column="31" lean-forward="false" selection-start-line="71" selection-start-column="31" selection-end-line="71" selection-end-column="31" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#form#0;n#fieldset#0;n#div#0;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#2073#2079#0" expanded="true" />
+            <element signature="e#2079#2085#0" expanded="true" />
+            <element signature="e#2085#2091#0" expanded="true" />
+            <element signature="e#2091#2097#0" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#a#0;n#form#0;n#fieldset#0;n#div#0;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#2202#2208#0" expanded="true" />
+            <element signature="e#2208#2214#0" expanded="true" />
+            <element signature="e#2214#2220#0" expanded="true" />
+            <element signature="e#2220#2226#0" expanded="true" />
+            <element signature="e#2226#2232#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台管理系统旅游线路添加.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="23" column="17" lean-forward="false" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+          <folding>
+            <element signature="e#5776#5782#0" expanded="true" />
+            <element signature="e#5782#5788#0" expanded="true" />
+            <element signature="e#5788#5794#0" expanded="true" />
+            <element signature="e#5794#5800#0" expanded="true" />
+            <element signature="e#5801#5807#0" expanded="true" />
+            <element signature="e#5807#5813#0" expanded="true" />
+            <element signature="e#5813#5819#0" expanded="true" />
+            <element signature="e#5819#5825#0" expanded="true" />
+            <element signature="e#5838#5844#0" expanded="true" />
+            <element signature="e#5844#5850#0" expanded="true" />
+            <element signature="e#5850#5856#0" expanded="true" />
+            <element signature="e#5856#5862#0" expanded="true" />
+            <element signature="e#5862#5868#0" expanded="true" />
+            <element signature="e#5868#5874#0" expanded="true" />
+            <element signature="e#5874#5880#0" expanded="true" />
+            <element signature="e#5880#5886#0" expanded="true" />
+            <element signature="e#5899#5905#0" expanded="true" />
+            <element signature="e#5905#5911#0" expanded="true" />
+            <element signature="e#5911#5917#0" expanded="true" />
+            <element signature="e#5917#5923#0" expanded="true" />
+            <element signature="e#5923#5929#0" expanded="true" />
+            <element signature="e#5929#5935#0" expanded="true" />
+            <element signature="e#5935#5941#0" expanded="true" />
+            <element signature="e#5941#5947#0" expanded="true" />
+            <element signature="e#6571#6577#0" expanded="true" />
+            <element signature="e#6577#6583#0" expanded="true" />
+            <element signature="e#6583#6589#0" expanded="true" />
+            <element signature="e#6589#6595#0" expanded="true" />
+            <element signature="e#6596#6602#0" expanded="true" />
+            <element signature="e#6602#6608#0" expanded="true" />
+            <element signature="e#6608#6614#0" expanded="true" />
+            <element signature="e#6614#6620#0" expanded="true" />
+            <element signature="e#6633#6639#0" expanded="true" />
+            <element signature="e#6639#6645#0" expanded="true" />
+            <element signature="e#6645#6651#0" expanded="true" />
+            <element signature="e#6651#6657#0" expanded="true" />
+            <element signature="e#6657#6663#0" expanded="true" />
+            <element signature="e#6663#6669#0" expanded="true" />
+            <element signature="e#6669#6675#0" expanded="true" />
+            <element signature="e#6675#6681#0" expanded="true" />
+            <element signature="e#6694#6700#0" expanded="true" />
+            <element signature="e#6700#6706#0" expanded="true" />
+            <element signature="e#6706#6712#0" expanded="true" />
+            <element signature="e#6712#6718#0" expanded="true" />
+            <element signature="e#6718#6724#0" expanded="true" />
+            <element signature="e#6724#6730#0" expanded="true" />
+            <element signature="e#6730#6736#0" expanded="true" />
+            <element signature="e#6736#6742#0" expanded="true" />
+            <element signature="e#7095#7101#0" expanded="true" />
+            <element signature="e#7101#7107#0" expanded="true" />
+            <element signature="e#7107#7113#0" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#10;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#10;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#1;n#div#10;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台管理系统旅游线路查看.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="26" lean-forward="false" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+          <folding>
+            <element signature="e#5322#5328#0" expanded="true" />
+            <element signature="e#5328#5334#0" expanded="true" />
+            <element signature="e#5334#5340#0" expanded="true" />
+            <element signature="e#5738#5744#0" expanded="true" />
+            <element signature="e#5744#5750#0" expanded="true" />
+            <element signature="e#5750#5756#0" expanded="true" />
+            <element signature="e#6155#6161#0" expanded="true" />
+            <element signature="e#6161#6167#0" expanded="true" />
+            <element signature="e#6167#6173#0" expanded="true" />
+            <element signature="e#6571#6577#0" expanded="true" />
+            <element signature="e#6577#6583#0" expanded="true" />
+            <element signature="e#6583#6589#0" expanded="true" />
+            <element signature="e#6985#6991#0" expanded="true" />
+            <element signature="e#6991#6997#0" expanded="true" />
+            <element signature="e#6997#7003#0" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#a#0;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#7298#7304#0" expanded="true" />
+            <element signature="e#7304#7310#0" expanded="true" />
+            <element signature="e#7310#7316#0" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#a#1;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#7432#7438#0" expanded="true" />
+            <element signature="e#7438#7444#0" expanded="true" />
+            <element signature="e#7444#7450#0" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#a#2;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#7561#7567#0" expanded="true" />
+            <element signature="e#7567#7573#0" expanded="true" />
+            <element signature="e#7573#7579#0" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#a#3;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台管理系统旅游线路添加.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#5776#5782#0" expanded="true" />
+            <element signature="e#5782#5788#0" expanded="true" />
+            <element signature="e#5788#5794#0" expanded="true" />
+            <element signature="e#5794#5800#0" expanded="true" />
+            <element signature="e#5801#5807#0" expanded="true" />
+            <element signature="e#5807#5813#0" expanded="true" />
+            <element signature="e#5813#5819#0" expanded="true" />
+            <element signature="e#5819#5825#0" expanded="true" />
+            <element signature="e#5838#5844#0" expanded="true" />
+            <element signature="e#5844#5850#0" expanded="true" />
+            <element signature="e#5850#5856#0" expanded="true" />
+            <element signature="e#5856#5862#0" expanded="true" />
+            <element signature="e#5862#5868#0" expanded="true" />
+            <element signature="e#5868#5874#0" expanded="true" />
+            <element signature="e#5874#5880#0" expanded="true" />
+            <element signature="e#5880#5886#0" expanded="true" />
+            <element signature="e#5899#5905#0" expanded="true" />
+            <element signature="e#5905#5911#0" expanded="true" />
+            <element signature="e#5911#5917#0" expanded="true" />
+            <element signature="e#5917#5923#0" expanded="true" />
+            <element signature="e#5923#5929#0" expanded="true" />
+            <element signature="e#5929#5935#0" expanded="true" />
+            <element signature="e#5935#5941#0" expanded="true" />
+            <element signature="e#5941#5947#0" expanded="true" />
+            <element signature="e#6571#6577#0" expanded="true" />
+            <element signature="e#6577#6583#0" expanded="true" />
+            <element signature="e#6583#6589#0" expanded="true" />
+            <element signature="e#6589#6595#0" expanded="true" />
+            <element signature="e#6596#6602#0" expanded="true" />
+            <element signature="e#6602#6608#0" expanded="true" />
+            <element signature="e#6608#6614#0" expanded="true" />
+            <element signature="e#6614#6620#0" expanded="true" />
+            <element signature="e#6633#6639#0" expanded="true" />
+            <element signature="e#6639#6645#0" expanded="true" />
+            <element signature="e#6645#6651#0" expanded="true" />
+            <element signature="e#6651#6657#0" expanded="true" />
+            <element signature="e#6657#6663#0" expanded="true" />
+            <element signature="e#6663#6669#0" expanded="true" />
+            <element signature="e#6669#6675#0" expanded="true" />
+            <element signature="e#6675#6681#0" expanded="true" />
+            <element signature="e#6694#6700#0" expanded="true" />
+            <element signature="e#6700#6706#0" expanded="true" />
+            <element signature="e#6706#6712#0" expanded="true" />
+            <element signature="e#6712#6718#0" expanded="true" />
+            <element signature="e#6718#6724#0" expanded="true" />
+            <element signature="e#6724#6730#0" expanded="true" />
+            <element signature="e#6730#6736#0" expanded="true" />
+            <element signature="e#6736#6742#0" expanded="true" />
+            <element signature="e#7095#7101#0" expanded="true" />
+            <element signature="e#7101#7107#0" expanded="true" />
+            <element signature="e#7107#7113#0" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#10;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#10;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#1;n#div#10;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台管理系统线路类型添加.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台管理系统线路类型修改.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/管理员登录.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1917">
+          <caret line="71" column="31" lean-forward="true" selection-start-line="71" selection-start-column="31" selection-end-line="71" selection-end-column="31" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#form#0;n#fieldset#0;n#div#0;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#2073#2079#0" expanded="true" />
+            <element signature="e#2079#2085#0" expanded="true" />
+            <element signature="e#2085#2091#0" expanded="true" />
+            <element signature="e#2091#2097#0" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#a#0;n#form#0;n#fieldset#0;n#div#0;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#2202#2208#0" expanded="true" />
+            <element signature="e#2208#2214#0" expanded="true" />
+            <element signature="e#2214#2220#0" expanded="true" />
+            <element signature="e#2220#2226#0" expanded="true" />
+            <element signature="e#2226#2232#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台管理系统旅游线路查看.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+          <folding>
+            <element signature="e#5322#5328#0" expanded="true" />
+            <element signature="e#5328#5334#0" expanded="true" />
+            <element signature="e#5334#5340#0" expanded="true" />
+            <element signature="e#5738#5744#0" expanded="true" />
+            <element signature="e#5744#5750#0" expanded="true" />
+            <element signature="e#5750#5756#0" expanded="true" />
+            <element signature="e#6155#6161#0" expanded="true" />
+            <element signature="e#6161#6167#0" expanded="true" />
+            <element signature="e#6167#6173#0" expanded="true" />
+            <element signature="e#6571#6577#0" expanded="true" />
+            <element signature="e#6577#6583#0" expanded="true" />
+            <element signature="e#6583#6589#0" expanded="true" />
+            <element signature="e#6985#6991#0" expanded="true" />
+            <element signature="e#6991#6997#0" expanded="true" />
+            <element signature="e#6997#7003#0" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#a#0;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#7298#7304#0" expanded="true" />
+            <element signature="e#7304#7310#0" expanded="true" />
+            <element signature="e#7310#7316#0" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#a#1;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#7432#7438#0" expanded="true" />
+            <element signature="e#7438#7444#0" expanded="true" />
+            <element signature="e#7444#7450#0" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#a#2;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#7561#7567#0" expanded="true" />
+            <element signature="e#7567#7573#0" expanded="true" />
+            <element signature="e#7573#7579#0" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#a#3;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台管理系统旅游线路添加.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#5776#5782#0" expanded="true" />
+            <element signature="e#5782#5788#0" expanded="true" />
+            <element signature="e#5788#5794#0" expanded="true" />
+            <element signature="e#5794#5800#0" expanded="true" />
+            <element signature="e#5801#5807#0" expanded="true" />
+            <element signature="e#5807#5813#0" expanded="true" />
+            <element signature="e#5813#5819#0" expanded="true" />
+            <element signature="e#5819#5825#0" expanded="true" />
+            <element signature="e#5838#5844#0" expanded="true" />
+            <element signature="e#5844#5850#0" expanded="true" />
+            <element signature="e#5850#5856#0" expanded="true" />
+            <element signature="e#5856#5862#0" expanded="true" />
+            <element signature="e#5862#5868#0" expanded="true" />
+            <element signature="e#5868#5874#0" expanded="true" />
+            <element signature="e#5874#5880#0" expanded="true" />
+            <element signature="e#5880#5886#0" expanded="true" />
+            <element signature="e#5899#5905#0" expanded="true" />
+            <element signature="e#5905#5911#0" expanded="true" />
+            <element signature="e#5911#5917#0" expanded="true" />
+            <element signature="e#5917#5923#0" expanded="true" />
+            <element signature="e#5923#5929#0" expanded="true" />
+            <element signature="e#5929#5935#0" expanded="true" />
+            <element signature="e#5935#5941#0" expanded="true" />
+            <element signature="e#5941#5947#0" expanded="true" />
+            <element signature="e#6571#6577#0" expanded="true" />
+            <element signature="e#6577#6583#0" expanded="true" />
+            <element signature="e#6583#6589#0" expanded="true" />
+            <element signature="e#6589#6595#0" expanded="true" />
+            <element signature="e#6596#6602#0" expanded="true" />
+            <element signature="e#6602#6608#0" expanded="true" />
+            <element signature="e#6608#6614#0" expanded="true" />
+            <element signature="e#6614#6620#0" expanded="true" />
+            <element signature="e#6633#6639#0" expanded="true" />
+            <element signature="e#6639#6645#0" expanded="true" />
+            <element signature="e#6645#6651#0" expanded="true" />
+            <element signature="e#6651#6657#0" expanded="true" />
+            <element signature="e#6657#6663#0" expanded="true" />
+            <element signature="e#6663#6669#0" expanded="true" />
+            <element signature="e#6669#6675#0" expanded="true" />
+            <element signature="e#6675#6681#0" expanded="true" />
+            <element signature="e#6694#6700#0" expanded="true" />
+            <element signature="e#6700#6706#0" expanded="true" />
+            <element signature="e#6706#6712#0" expanded="true" />
+            <element signature="e#6712#6718#0" expanded="true" />
+            <element signature="e#6718#6724#0" expanded="true" />
+            <element signature="e#6724#6730#0" expanded="true" />
+            <element signature="e#6730#6736#0" expanded="true" />
+            <element signature="e#6736#6742#0" expanded="true" />
+            <element signature="e#7095#7101#0" expanded="true" />
+            <element signature="e#7101#7107#0" expanded="true" />
+            <element signature="e#7107#7113#0" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#10;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#10;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#1;n#div#10;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台管理系统线路类型添加.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台管理系统旅游线路查看.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5427">
+          <caret line="201" column="28" lean-forward="false" selection-start-line="201" selection-start-column="28" selection-end-line="201" selection-end-column="28" />
+          <folding>
+            <element signature="e#5322#5328#0" expanded="true" />
+            <element signature="e#5328#5334#0" expanded="true" />
+            <element signature="e#5334#5340#0" expanded="true" />
+            <element signature="e#5738#5744#0" expanded="true" />
+            <element signature="e#5744#5750#0" expanded="true" />
+            <element signature="e#5750#5756#0" expanded="true" />
+            <element signature="e#6155#6161#0" expanded="true" />
+            <element signature="e#6161#6167#0" expanded="true" />
+            <element signature="e#6167#6173#0" expanded="true" />
+            <element signature="e#6571#6577#0" expanded="true" />
+            <element signature="e#6577#6583#0" expanded="true" />
+            <element signature="e#6583#6589#0" expanded="true" />
+            <element signature="e#6985#6991#0" expanded="true" />
+            <element signature="e#6991#6997#0" expanded="true" />
+            <element signature="e#6997#7003#0" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#a#0;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#7298#7304#0" expanded="true" />
+            <element signature="e#7304#7310#0" expanded="true" />
+            <element signature="e#7310#7316#0" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#a#1;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#7432#7438#0" expanded="true" />
+            <element signature="e#7438#7444#0" expanded="true" />
+            <element signature="e#7444#7450#0" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#a#2;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#7561#7567#0" expanded="true" />
+            <element signature="e#7567#7573#0" expanded="true" />
+            <element signature="e#7573#7579#0" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#a#3;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台管理系统线路类型查看.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3699">
+          <caret line="137" column="0" lean-forward="false" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#thead#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#a#0;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#6274#6280#0" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#a#1;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#6406#6412#0" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#a#2;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#6531#6537#0" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#a#3;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台管理系统线路类型添加.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5481">
+          <caret line="203" column="39" lean-forward="false" selection-start-line="203" selection-start-column="39" selection-end-line="203" selection-end-column="39" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/线路下一页跳转.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6777">
+          <caret line="251" column="133" lean-forward="false" selection-start-line="251" selection-start-column="43" selection-end-line="251" selection-end-column="133" />
+          <folding>
+            <element signature="e#5270#5276#0" expanded="true" />
+            <element signature="e#5276#5282#0" expanded="true" />
+            <element signature="e#5282#5288#0" expanded="true" />
+            <element signature="e#5690#5696#0" expanded="true" />
+            <element signature="e#5696#5702#0" expanded="true" />
+            <element signature="e#5702#5708#0" expanded="true" />
+            <element signature="e#6109#6115#0" expanded="true" />
+            <element signature="e#6115#6121#0" expanded="true" />
+            <element signature="e#6121#6127#0" expanded="true" />
+            <element signature="e#6526#6532#0" expanded="true" />
+            <element signature="e#6532#6538#0" expanded="true" />
+            <element signature="e#6538#6544#0" expanded="true" />
+            <element signature="e#6948#6954#0" expanded="true" />
+            <element signature="e#6954#6960#0" expanded="true" />
+            <element signature="e#6960#6966#0" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#a#0;n#td#0;n#tr#4;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#7261#7267#0" expanded="true" />
+            <element signature="e#7267#7273#0" expanded="true" />
+            <element signature="e#7273#7279#0" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#a#1;n#td#0;n#tr#4;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#7395#7401#0" expanded="true" />
+            <element signature="e#7401#7407#0" expanded="true" />
+            <element signature="e#7407#7413#0" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#a#2;n#td#0;n#tr#4;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#7524#7530#0" expanded="true" />
+            <element signature="e#7530#7536#0" expanded="true" />
+            <element signature="e#7536#7542#0" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#a#3;n#td#0;n#tr#4;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台管理系统旅游线路添加.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4941">
+          <caret line="183" column="9" lean-forward="false" selection-start-line="183" selection-start-column="9" selection-end-line="183" selection-end-column="9" />
+          <folding>
+            <element signature="e#5776#5782#0" expanded="true" />
+            <element signature="e#5782#5788#0" expanded="true" />
+            <element signature="e#5788#5794#0" expanded="true" />
+            <element signature="e#5794#5800#0" expanded="true" />
+            <element signature="e#5801#5807#0" expanded="true" />
+            <element signature="e#5807#5813#0" expanded="true" />
+            <element signature="e#5813#5819#0" expanded="true" />
+            <element signature="e#5819#5825#0" expanded="true" />
+            <element signature="e#5838#5844#0" expanded="true" />
+            <element signature="e#5844#5850#0" expanded="true" />
+            <element signature="e#5850#5856#0" expanded="true" />
+            <element signature="e#5856#5862#0" expanded="true" />
+            <element signature="e#5862#5868#0" expanded="true" />
+            <element signature="e#5868#5874#0" expanded="true" />
+            <element signature="e#5874#5880#0" expanded="true" />
+            <element signature="e#5880#5886#0" expanded="true" />
+            <element signature="e#5899#5905#0" expanded="true" />
+            <element signature="e#5905#5911#0" expanded="true" />
+            <element signature="e#5911#5917#0" expanded="true" />
+            <element signature="e#5917#5923#0" expanded="true" />
+            <element signature="e#5923#5929#0" expanded="true" />
+            <element signature="e#5929#5935#0" expanded="true" />
+            <element signature="e#5935#5941#0" expanded="true" />
+            <element signature="e#5941#5947#0" expanded="true" />
+            <element signature="e#6571#6577#0" expanded="true" />
+            <element signature="e#6577#6583#0" expanded="true" />
+            <element signature="e#6583#6589#0" expanded="true" />
+            <element signature="e#6589#6595#0" expanded="true" />
+            <element signature="e#6596#6602#0" expanded="true" />
+            <element signature="e#6602#6608#0" expanded="true" />
+            <element signature="e#6608#6614#0" expanded="true" />
+            <element signature="e#6614#6620#0" expanded="true" />
+            <element signature="e#6633#6639#0" expanded="true" />
+            <element signature="e#6639#6645#0" expanded="true" />
+            <element signature="e#6645#6651#0" expanded="true" />
+            <element signature="e#6651#6657#0" expanded="true" />
+            <element signature="e#6657#6663#0" expanded="true" />
+            <element signature="e#6663#6669#0" expanded="true" />
+            <element signature="e#6669#6675#0" expanded="true" />
+            <element signature="e#6675#6681#0" expanded="true" />
+            <element signature="e#6694#6700#0" expanded="true" />
+            <element signature="e#6700#6706#0" expanded="true" />
+            <element signature="e#6706#6712#0" expanded="true" />
+            <element signature="e#6712#6718#0" expanded="true" />
+            <element signature="e#6718#6724#0" expanded="true" />
+            <element signature="e#6724#6730#0" expanded="true" />
+            <element signature="e#6730#6736#0" expanded="true" />
+            <element signature="e#6736#6742#0" expanded="true" />
+            <element signature="e#7095#7101#0" expanded="true" />
+            <element signature="e#7101#7107#0" expanded="true" />
+            <element signature="e#7107#7113#0" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#10;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#10;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#1;n#div#10;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/管理员登录.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="88" column="32" lean-forward="false" selection-start-line="88" selection-start-column="32" selection-end-line="88" selection-end-column="32" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#form#0;n#fieldset#0;n#div#0;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#2073#2079#0" expanded="true" />
+            <element signature="e#2079#2085#0" expanded="true" />
+            <element signature="e#2085#2091#0" expanded="true" />
+            <element signature="e#2091#2097#0" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#a#0;n#form#0;n#fieldset#0;n#div#0;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#2202#2208#0" expanded="true" />
+            <element signature="e#2208#2214#0" expanded="true" />
+            <element signature="e#2214#2220#0" expanded="true" />
+            <element signature="e#2220#2226#0" expanded="true" />
+            <element signature="e#2226#2232#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/下一页跳转.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="234" column="116" lean-forward="false" selection-start-line="234" selection-start-column="116" selection-end-line="234" selection-end-column="116" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#thead#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#a#0;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#6839#6845#0" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#a#1;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#6971#6977#0" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#a#2;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#7084#7090#0" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#a#3;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台管理系统线路类型修改.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="197" column="18" lean-forward="true" selection-start-line="197" selection-start-column="18" selection-end-line="197" selection-end-column="18" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/后台管理系统线路修改.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="319" column="66" lean-forward="false" selection-start-line="319" selection-start-column="66" selection-end-line="319" selection-end-column="66" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#5925#5931#0" expanded="true" />
+            <element signature="e#5931#5937#0" expanded="true" />
+            <element signature="e#5937#5943#0" expanded="true" />
+            <element signature="e#5943#5949#0" expanded="true" />
+            <element signature="e#5950#5956#0" expanded="true" />
+            <element signature="e#5956#5962#0" expanded="true" />
+            <element signature="e#5962#5968#0" expanded="true" />
+            <element signature="e#5968#5974#0" expanded="true" />
+            <element signature="e#5987#5993#0" expanded="true" />
+            <element signature="e#5993#5999#0" expanded="true" />
+            <element signature="e#5999#6005#0" expanded="true" />
+            <element signature="e#6005#6011#0" expanded="true" />
+            <element signature="e#6011#6017#0" expanded="true" />
+            <element signature="e#6017#6023#0" expanded="true" />
+            <element signature="e#6023#6029#0" expanded="true" />
+            <element signature="e#6029#6035#0" expanded="true" />
+            <element signature="e#6048#6054#0" expanded="true" />
+            <element signature="e#6054#6060#0" expanded="true" />
+            <element signature="e#6060#6066#0" expanded="true" />
+            <element signature="e#6066#6072#0" expanded="true" />
+            <element signature="e#6072#6078#0" expanded="true" />
+            <element signature="e#6078#6084#0" expanded="true" />
+            <element signature="e#6084#6090#0" expanded="true" />
+            <element signature="e#6090#6096#0" expanded="true" />
+            <element signature="e#6701#6707#0" expanded="true" />
+            <element signature="e#6707#6713#0" expanded="true" />
+            <element signature="e#6713#6719#0" expanded="true" />
+            <element signature="e#6719#6725#0" expanded="true" />
+            <element signature="e#6726#6732#0" expanded="true" />
+            <element signature="e#6732#6738#0" expanded="true" />
+            <element signature="e#6738#6744#0" expanded="true" />
+            <element signature="e#6744#6750#0" expanded="true" />
+            <element signature="e#6763#6769#0" expanded="true" />
+            <element signature="e#6769#6775#0" expanded="true" />
+            <element signature="e#6775#6781#0" expanded="true" />
+            <element signature="e#6781#6787#0" expanded="true" />
+            <element signature="e#6787#6793#0" expanded="true" />
+            <element signature="e#6793#6799#0" expanded="true" />
+            <element signature="e#6799#6805#0" expanded="true" />
+            <element signature="e#6805#6811#0" expanded="true" />
+            <element signature="e#6824#6830#0" expanded="true" />
+            <element signature="e#6830#6836#0" expanded="true" />
+            <element signature="e#6836#6842#0" expanded="true" />
+            <element signature="e#6842#6848#0" expanded="true" />
+            <element signature="e#6848#6854#0" expanded="true" />
+            <element signature="e#6854#6860#0" expanded="true" />
+            <element signature="e#6860#6866#0" expanded="true" />
+            <element signature="e#6866#6872#0" expanded="true" />
+            <element signature="e#7171#7177#0" expanded="true" />
+            <element signature="e#7177#7183#0" expanded="true" />
+            <element signature="e#7183#7189#0" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#div#0;n#div#4;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#5;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#div#1;n#div#0;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#div#1;n#div#1;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#2;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#div#1;n#div#2;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#3;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#3;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#div#1;n#div#3;n#div#6;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#7;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#7;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
