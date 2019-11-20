@@ -23,8 +23,10 @@ router.get('/lines', async(req, res, next) => {
     var type = req.query.type;
     var sort = req.query.sort;
     var num = req.query.num;
-    var data = await lines.getLines(type,sort,num);
-    res.send(data);
+    var data = await lines.getLines(type,sort,num,(data)=>{      
+        res.send(data);
+    }); 
+    //console.log(data);
 })
 
 module.exports = router;
