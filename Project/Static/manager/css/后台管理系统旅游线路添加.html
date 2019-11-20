@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>后台管理系统</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/npm.js"></script>
+    <style>
+        .header {
+            padding: 10px;
+            text-align: left;
+            background: #1abc9c;
+            color: white;
+        }
+
+        /* 标题字体加大 */
+        .header h1 {
+            font-size: 40px;
+            font-family: "华文隶书";
+        }
+        .navbar1 {
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        /*两列布局*/
+        #container{
+            display: -webkit-box;
+            display: -moz-box;
+            margin: 0 auto;
+        }
+        #main
+        {
+            -webkit-flex: 1;
+            width: 80%;
+            padding-left: 2px;
+        }
+        #left
+        {
+            background-color: #f1f1f1;
+        //padding:100px;
+            height: 50%;
+            width: 20%;
+            padding-top: 50px;
+            padding-left: 40px;
+            padding-bottom: 100%;
+        }
+        #nav
+        {
+            padding: 10px;
+            background-color: #d3d9df;
+            opacity: 0.5;
+        }
+        #nav001
+        {
+            padding-left: 30px;
+            padding-right: 70px;
+            font-family: "华文彩云";
+            font-size: 25px;
+            background-color: #9999ff;
+        }
+        #nav0{
+            padding-top: 50px;
+            padding-left: 20px;
+            padding-right: 50px;
+        }
+        ul{
+            margin: 0px;
+            padding: 0px;
+            position: relative;
+        }
+        ul  li
+        {
+            font:0.9em Arial,sans-serif;
+            list-style: none;
+            width: 151px;
+            display: inline;
+            color: #9d9d9d;
+            font-weight: bolder;
+            font-size: 20px;
+
+        }
+
+        ul li a{
+            color: white;
+            width: 120px;
+            margin: 0px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            text-decoration: none;
+            font-size: 14px;
+            display: block;
+            background-color: #d3d9df;
+            line-height: 30px;
+        }
+
+        ui li ul li {
+            height: 35px
+        }
+
+        ul li ul li a{
+            background: dodgerblue;
+            line-height: 30px;
+        }
+        ul li a:hover{
+            background: dodgerblue;
+
+        }
+        ul li ul{
+            display: none;
+        }
+        ul li:hover ul
+        {
+            display: block;
+        }
+        ul li ul li a:hover{
+            background-color: #d3d9df;
+        }
+        .div2
+        {
+            float: left;
+            text-align: center;
+            border: 1px solid;
+            padding: 20px;
+        }
+        .column {
+            float: left;
+            padding-left: 10px;
+            padding-top: 10px;
+        }
+        .column1 {
+            float: left;
+            padding-left: 10px;
+            padding-top: 10px;
+        }
+        .column.wi
+        {
+            width: 70px;
+        }
+        /* 左右两侧宽度 */
+        .column.side {
+            width: 200px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .column.middle
+        {
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+        .column.left
+        {
+            width: 350px;
+        }
+    </style>
+
+</head>
+<body>
+
+<div class="header">
+    <h1>欢迎登录后台管理界面</h1>
+</div>
+
+<div class="navbar1" role="navigation">
+    <div class="container-fluid">
+        <ul class="nav navbar-right navbar-nav">
+            <li><a href="管理员登录.html"><span class="glyphicon glyphicon-log-out">退出</span> </a></li>
+        </ul>
+        <p class="navbar-text navbar-right">管理员：您好！</p>
+    </div>
+</div>
+<div id="container">
+    <div id="left"style="padding-top: 100px">
+        <div class="div2">
+            <ul>
+                <li>旅游线路管理
+                    <ul>
+                        <li><a href="后台管理系统旅游线路添加.html">添加线路类型</a></li>
+                        <li><a href="">查看线路类型</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <br>
+        <div class="div2">
+            <ul>
+                <li>旅游类型管理
+                    <ul>
+                        <li><a href="后台管理系统旅游线路添加.html">添加线路类型</a></li>
+                        <li><a href="后台管理系统线路类型查看.html">查看线路类型</a></li>
+                        <li><a href="">修改线路类型</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <br><br>
+    </div>
+    <div id="main">
+        <div style="padding: 20px"></div>
+        <div style="padding-bottom: 20px;padding-left: 70px" >
+            <label>线路名称</label>
+            <input type="text" minlength="4" maxlength="12" >
+            &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label>线路价格</label>
+            <input type="number">
+        </div>
+        <div style="padding-left: 70px;padding-bottom:30px ">
+            <label>出游天数</label>
+            <input type="number">
+        </div>
+        <div style="padding-left: 70px;padding-bottom: 20px">
+            <label>交通工具</label>
+            <select>
+                <option value="NULL">请选择交通工具</option>
+                <option value="saab">火车</option>
+                <option value="opel">汽车</option>
+                <option value="audi">飞机</option>
+                <option value="audi">高铁</option>
+            </select>
+            &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label>线路类型</label>
+            <select>
+                <option value="NULL">请选择线路类型</option>
+                <option value="saab">西部游</option>
+                <option value="opel">海外游</option>
+                <option value="audi">海岛游</option>
+                <option value="audi">东京游</option>
+            </select>
+            &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="submit" value="添加" style="background-color: red">
+        </div>
+        &nbsp;&nbsp;&nbsp;
+        <div style="padding-left: 50px" class="column">
+            <div class="column side">
+            <label>推荐理由</label>
+            <div></div>
+            <textarea rows="5" cols="30"></textarea>
+            </div>
+            <div class="column middle"></div>
+            <div class="column side">
+                <label>行程安排</label>
+                <div></div>
+                <textarea rows="5" cols="30"></textarea>
+            </div>
+            <div class="column middle"></div>
+            <div class="column side">
+                <label>线路简介</label>
+                <div></div>
+                <textarea rows="5" cols="30"></textarea>
+            </div>
+        </div>
+        <div class="column"><div style="padding-left:60px ;padding-top: 20px"><p>选择上传的线路图片（说明：用户查看具体线路时有4张图片作为简介部分）</p></div>
+        </div>
+
+        <div class="column1">
+            <div class="column left" style="padding-left:50px ">
+                <label>图片1</label>
+                <input type="text">
+                <input type="submit" value="浏览">
+            </div>
+            <div class="column middle"></div>
+            <div class="column left">
+                <label>图片介绍</label>
+                <input type="text" maxlength="30">
+            </div>
+        </div>
+
+        <div class="column1">
+            <div class="column left" style="padding-left:50px ">
+                <label>图片2</label>
+                <input type="text">
+                <input type="submit" value="浏览">
+            </div>
+            <div class="column middle"></div>
+            <div class="column left">
+                <label>图片介绍</label>
+                <input type="text" maxlength="30">
+            </div>
+        </div>
+        <div class="column1">
+            <div class="column left" style="padding-left:50px ">
+                <label>图片3</label>
+                <input type="text">
+                <input type="submit" value="浏览">
+            </div>
+            <div class="column middle"></div>
+            <div class="column left">
+                <label>图片介绍</label>
+                <input type="text" maxlength="30">
+            </div>
+        </div>
+        <div class="column1">
+            <div class="column left" style="padding-left:50px ">
+                <label>图片4</label>
+                <input type="text">
+                <input type="submit" value="浏览">
+            </div>
+            <div class="column middle"></div>
+            <div class="column left">
+                <label>图片介绍</label>
+                <input type="text" maxlength="30">
+            </div>
+        </div>
+        </div>
+     </div>
+    </div>
+</div>
+</div>
+</div>
+</body>
+</html>
