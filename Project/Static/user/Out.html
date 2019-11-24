@@ -13,9 +13,9 @@
         img {
             width: 100%;
         }
-        div {
-            margin:0 auto;
-        }
+        /*div {*/
+            /*margin:0 auto;*/
+        /*}*/
         .head_button{
             /*页首按钮*/
             width: 8em;
@@ -74,9 +74,9 @@
             width: 100%;
             display: flex;
         }
-        glyphicon glyphicon-shopping-cart.{
-
-        }
+        /*glyphicon glyphicon-shopping-cart.{*/
+        
+        /*}*/
         .col-md-2{
             margin:0 auto;
         }
@@ -84,7 +84,7 @@
 </head>
 <body style="background: url(images/g5.jpg)  no-repeat fixed ;background-size:100% AUTO">
 
-<div style="background-color: rgba(16,22,40,0.96); margin: 0em auto; padding: 0.8em 0 0.5em 0 ">
+<div style="background-color: rgba(16,22,40,0.96); margin: 0 auto; padding: 0.8em 0 0.5em 0 ">
     <!--页首-->
     <div class="container">
         <div class="row clearfix">
@@ -189,9 +189,10 @@
                 </div>
                 <!--top5图片-->
                 <div class="row clearfix" style="padding: 3em 0 0 0" >
-                    <div class="col-md-12" >
-                    <div class="col-md-10">
-                    <div class="col-md-2" >
+                    <div class="col-md-12" style="display: inline" >
+
+
+                    <div class="col-md-4" style="width:20%">
                         <div >
                             <img src="images/scene_2.jpg" alt="" >
                         </div>
@@ -199,7 +200,18 @@
                             洪崖洞 &nbsp;&nbsp;$999
                         </h6>
                     </div>
-                        <div class="col-md-2" >
+
+                        <div class="col-md-4" style="width:20%">
+                            <div >
+                                <img src="images/scene_2.jpg" alt="" >
+                            </div>
+                            <h6 class="text-center" >
+                                洪崖洞 &nbsp;&nbsp;$999
+                            </h6>
+
+
+                        </div>
+                        <div class="col-md-4" style="width:20%">
                             <div >
                                 <img src="images/scene_2.jpg" alt="" >
                             </div>
@@ -207,7 +219,7 @@
                                 洪崖洞 &nbsp;&nbsp;$999
                             </h6>
                         </div>
-                        <div class="col-md-2" >
+                        <div class="col-md-4" style="width:20%" >
                             <div >
                                 <img src="images/scene_2.jpg" alt="" >
                             </div>
@@ -215,15 +227,7 @@
                                 洪崖洞 &nbsp;&nbsp;$999
                             </h6>
                         </div>
-                        <div class="col-md-2" >
-                            <div >
-                                <img src="images/scene_2.jpg" alt="" >
-                            </div>
-                            <h6 class="text-center" >
-                                洪崖洞 &nbsp;&nbsp;$999
-                            </h6>
-                        </div>
-                        <div class="col-md-2" >
+                        <div class="col-md-4" style="width:20%">
                             <div >
                                 <img src="images/scene_2.jpg" alt="" >
                             </div>
@@ -233,7 +237,7 @@
                         </div>
 
 
-                    </div>
+
                     </div>
                 </div>
                 </div>
@@ -241,7 +245,7 @@
         </div>
 
     </div>
-</div>
+
 
 
 <!--第三个板块-->
@@ -310,7 +314,7 @@
 
 
 <!--第四个板块-->
-<div class="white_back">
+<div class="white_back" id="show">
     <div class="container">
         <div class="row clearfix">
             <div class="col-md-12">
@@ -344,13 +348,10 @@
                 </div>
             </div>
         </div>
-
-
-
         <ul class="pager">
 
-            <li><a href="#">Previous</a></li>
-            <li><a href="#">Next</a></li>
+            <li><a href="#show">Previous</a></li>
+            <li><a href="#show">Next</a></li>
 
         </ul>
         <a href="#">
